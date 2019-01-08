@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="B:\Unity\Hexacrest" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Editor" t="Include">
+        <e p="FixBlenderImportRotation.cs" t="Include" />
+      </e>
+      <e p="Assets\QuickOutline" t="Include">
+        <e p="Readme.txt" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="OutlineFill.shader" t="Include" />
+            <e p="OutlineMask.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Outline.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Assets\Radial Menu Framework" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="RFM_RadialMenu_Editor.cs" t="Include" />
+          </e>
+          <e p="RMF_Demo.cs" t="Include" />
+          <e p="RMF_ForceDirection.cs" t="Include" />
+          <e p="RMF_RadialMenu.cs" t="Include" />
+          <e p="RMF_RadialMenuElement.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Assets\Scripts" t="Include">
+        <e p="CameraController.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
+        <e p="Inventory.cs" t="Include" />
+        <e p="Loader.cs" t="Include" />
+        <e p="ManualTooltip.cs" t="Include" />
+        <e p="Music.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="Players" t="Include">
+          <e p="AIPlayer.cs" t="Include" />
+          <e p="LocalPlayer.cs" t="Include" />
+          <e p="NetworkPlayer.cs" t="Include" />
+        </e>
+        <e p="TileTooltip.cs" t="Include" />
+        <e p="Tooltip.cs" t="Include" />
+        <e p="UIManager.cs" t="Include" />
+        <e p="World" t="Include">
+          <e p="Direction.cs" t="Include" />
+          <e p="Entities" t="Include">
+            <e p="Entity.cs" t="Include" />
+            <e p="Knight.cs" t="Include" />
+          </e>
+          <e p="Generator.cs" t="Include" />
+          <e p="Pathfinder.cs" t="Include" />
+          <e p="Tile.cs" t="Include" />
+          <e p="TileController.cs" t="Include" />
+          <e p="Tiles" t="Include">
+            <e p="Factory.cs" t="Include" />
+            <e p="Field.cs" t="Include" />
+            <e p="Generic.cs" t="Include" />
+            <e p="Settlement.cs" t="Include" />
+            <e p="Structure.cs" t="Include" />
+            <e p="Woodcutter.cs" t="Include" />
+          </e>
+          <e p="Unit.cs" t="Include" />
+        </e>
+        <e p="WorldController.cs" t="Include" />
+      </e>
+      <e p="Assets\Shaders" t="Include">
+        <e p="BlendedDecal.shader" t="Include" />
+      </e>
+      <e p="Hexacrest.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\Marc\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Marc\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Hexacrest.-1093775179.00" t="ExcludeRecursive" />
+  </component>
+</project>

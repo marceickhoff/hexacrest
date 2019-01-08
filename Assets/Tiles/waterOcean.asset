@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d4dc06a6f6444d817cb2f9a57f45d, type: 3}
+  m_Name: waterOcean
+  m_EditorClassIdentifier: 
+  sound: {fileID: 82865009285564094, guid: bcdabf2026b79cf418b8c3bb9bb27500, type: 2}
+  buildSound: {fileID: 0}
+  destroySound: {fileID: 0}
+  selectable: 0
+  obstructed: 1
+  connectsToRoad: 0
+  occupyRadius: 0
+  maxNeighboringFacilites: 0
+  healthPoints: 0
+  constructionScore: 0
+  destructionScore: 0
+  foodStorage: 0
+  woodStorage: 0
+  ironStorage: 0
+  stoneStorage: 0
+  foodProduction: 0
+  woodProduction: 0
+  ironProduction: 0
+  stoneProduction: 0
+  foodConsumption: 0
+  woodConsumption: 0
+  ironConsumption: 0
+  stoneConsumption: 0
+  buildingCostFood: 0
+  buildingCostWood: 0
+  buildingCostIron: 0
+  buildingCostStone: 0
+  builindRestrictionsOn: []
+  builindRestrictionsNextTo: []
+  types: 000000000200000003000000

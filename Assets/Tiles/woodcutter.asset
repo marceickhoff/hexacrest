@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d4dc06a6f6444d817cb2f9a57f45d, type: 3}
+  m_Name: woodcutter
+  m_EditorClassIdentifier: 
+  title: Woodcutter
+  description: 'Produces wood when next to a forest.
+
+    Must be built in a forest.
+
+
+    You don''t need any resources to build a woodcutter.'
+  sound: {fileID: 0}
+  buildSound: {fileID: 0}
+  destroySound: {fileID: 0}
+  selectable: 1
+  obstructed: 1
+  connectsToRoad: 1
+  occupyRadius: 0
+  maxNeighboringFacilites: 0
+  healthPoints: 1
+  constructionScore: 0
+  destructionScore: 1
+  foodStorage: 0
+  woodStorage: 0
+  ironStorage: 0
+  stoneStorage: 0
+  foodProduction: 0
+  woodProduction: 1
+  ironProduction: 0
+  stoneProduction: 0
+  foodConsumption: 0
+  woodConsumption: 0
+  ironConsumption: 0
+  stoneConsumption: 0
+  buildingCostFood: 0
+  buildingCostWood: 0
+  buildingCostIron: 0
+  buildingCostStone: 0
+  builingRestrictionsOn:
+  - {fileID: 11400000, guid: c3d714580e590ac468af5ddf377f7c15, type: 2}
+  - {fileID: 11400000, guid: 47d61a63bad1b3748804e5aa781e18d2, type: 2}
+  builindRestrictionsNextTo:
+  - {fileID: 11400000, guid: c3d714580e590ac468af5ddf377f7c15, type: 2}
+  types: 

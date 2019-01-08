@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50fcd93c-e2ad-413b-a96c-973fdb0c2075" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1331332049">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="43" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="14" />
+          <entry key="project.open.time.20" value="11" />
+          <entry key="project.open.time.21" value="6" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="73578" />
+          <entry key="shader" value="341" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="73578" />
+          <entry key="ShaderLab" value="341" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="asset" value="1" />
+          <entry key="cs" value="200" />
+          <entry key="mat" value="2" />
+          <entry key="shader" value="13" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="200" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="ShaderLab" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/TileController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9174">
+              <caret line="285" column="27" selection-start-line="285" selection-start-column="27" selection-end-line="285" selection-end-column="27" />
+              <folding>
+                <marker date="1543834898000" expanded="false" signature="6:199" ph="..." />
+                <marker date="1543834898000" expanded="true" signature="217:23783" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="264:23781" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="2220:2361" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="2417:2465" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="2513:2550" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="2554:2776" ph="///   &lt;para&gt;Starts preview mode for a given tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="2873:3258" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="3220:3254" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="3262:3507" ph="/* public static void EndPreviewMode() { ... */" />
+                <marker date="1543834898000" expanded="true" signature="3569:3706" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="3765:4189" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="3854:3985" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4124:4160" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4232:4273" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4331:4830" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4434:4761" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4615:4756" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
+                <marker date="1543834898000" expanded="true" signature="4761:4826" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4889:5168" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4960:5164" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="4966:5103" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
+                <marker date="1543834898000" expanded="true" signature="5172:5259" ph="///   &lt;para&gt;Returns the currently focused tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="5302:5325" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="5329:5420" ph="///   &lt;para&gt;Returns the current owner of this tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="5458:5481" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="5485:5579" ph="///   &lt;para&gt;Returns the current occupant of this tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="5620:5646" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="5650:5785" ph="///   &lt;para&gt;Changes the focused tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="5848:6060" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="5873:5947" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="6064:6131" ph="///   &lt;para&gt;Disables focus.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="6168:6257" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="6261:6342" ph="///   &lt;para&gt;Draws outlines around realms.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="6373:7201" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="6521:6606" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="6633:6721" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="6749:6858" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="6887:6996" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7040:7153" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7153:7197" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7228:7283" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7312:7368" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7398:7456" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7488:7547" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7551:7636" ph="///   &lt;para&gt;When this tile gains hover focus.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="7667:7879" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="7883:7968" ph="///   &lt;para&gt;When this tile loses hover focus.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="7998:8163" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="8167:8245" ph="///   &lt;para&gt;When this tile is clicked.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="8275:8468" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="8387:8417" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="8473:8618" ph="///   &lt;para&gt;Sets the owner of this tile and updates realms.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="8667:8766" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="8770:8881" ph="///   &lt;para&gt;Checks tiles for ownership and updates occupation radiuses.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="8918:9296" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="8984:9292" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="9068:9287" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="9107:9149" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="9193:9249" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="9300:9682" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="9789:11270" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="9898:10042" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="10046:10603" ph="/* var tilePrototype = Instantiate(GameManager.instance.tilePrototype); ... */" />
+                <marker date="1543834898000" expanded="true" signature="10798:10899" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="10853:10894" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="10936:10994" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="11060:11172" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="11274:11574" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="11664:11728" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="11732:12024" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="12120:12201" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="12205:12415" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="12494:12551" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="12555:12792" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="12902:13665" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="13004:13159" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="13159:13425" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="13669:13868" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="13961:14031" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="14146:14791" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="14499:14771" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="14639:14745" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="14696:14739" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="14795:14909" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="14956:15273" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="15045:15254" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="15113:15249" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="15204:15243" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="15277:15472" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match a specified tile type.&lt;/para ... " />
+                <marker date="1543834898000" expanded="true" signature="15534:15746" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="15672:15727" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="15750:15950" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match the specified tile types.&lt;/p ... " />
+                <marker date="1543834898000" expanded="true" signature="16026:16169" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="16108:16150" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="16173:16266" ph="///   &lt;para&gt;Returns the last created or changed tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="16308:16337" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="16341:16465" ph="///   &lt;para&gt;Returns the first ever created tile (should be located at Vector3.zero).&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="16509:16533" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="16537:16631" ph="///   &lt;para&gt;Checks if there are any neighboring tiles.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="16660:16701" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="16705:16861" ph="///   &lt;para&gt;Checks if there is a neighboring tile in the specified direction.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="16909:16956" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="16960:17134" ph="///   &lt;para&gt;Gets the local position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="17193:17226" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="17230:17404" ph="///   &lt;para&gt;Gets the world position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="17471:17536" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="17540:17742" ph="///   &lt;para&gt;Gets the neighboring tile controller in the specified direction if it exists. Uses ray casting to det ... " />
+                <marker date="1543834898000" expanded="true" signature="17800:18057" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="18061:18185" ph="///   &lt;para&gt;Gets all neighboring tile controllers. Uses ray casting to detect tiles.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="18231:18442" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="18327:18417" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="18361:18412" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="18446:18644" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="18713:19676" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="18799:19341" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="18875:18948" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19078:19336" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19201:19330" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19235:19323" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19460:19619" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19503:19614" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19559:19608" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19680:19876" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="19942:19990" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="19994:20137" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="20188:20237" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="20241:20366" ph="///   &lt;para&gt;Changes this tiles model.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="20414:20698" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="20702:20813" ph="///   &lt;para&gt;Updates road decals on tile according to neighboring tiles.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="20847:21873" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="20896:21869" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="20915:21701" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="20950:21695" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21040:21513" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21084:21194" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21231:21505" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21513:21688" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21569:21680" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21701:21864" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21753:21858" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="21877:22023" ph="///   &lt;para&gt;Adds or removes a road on this tile.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="22058:22660" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22134:22152" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22223:22351" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22397:22502" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22617:22656" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22664:22746" ph="///   &lt;para&gt;Checks if this tile is a road.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="22770:22794" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22798:22880" ph="///   &lt;para&gt;Highlights this tile visually.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="22929:23112" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="22971:23108" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23151:23180" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23184:23269" ph="///   &lt;para&gt;Un-highlights this tile visually.&lt;/para&gt; ... " />
+                <marker date="1543834898000" expanded="true" signature="23307:23464" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23349:23460" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23513:23703" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23558:23699" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23606:23694" ph="{...}" />
+                <marker date="1543834898000" expanded="true" signature="23733:23778" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="20" column="192" selection-start-line="20" selection-start-column="192" selection-end-line="20" selection-end-column="192" />
+              <folding>
+                <marker date="1543833886000" expanded="false" signature="6:52" ph="..." />
+                <marker date="1543833886000" expanded="true" signature="103:139" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="767:802" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="847:890" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="941:1276" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1137:1198" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1327:1599" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1463:1580" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1657:1999" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1861:1938" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Settlement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1980">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding>
+                <marker date="1543836092000" expanded="false" signature="6:95" ph="..." />
+                <marker date="1543836092000" expanded="true" signature="151:2006" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="258:264" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="293:298" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="327:351" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="382:589" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="621:677" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="730:1570" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="892:1505" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="988:1308" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="1046:1302" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="1156:1265" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="1204:1257" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="1464:1500" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="1627:2003" ph="{...}" />
+                <marker date="1543836092000" expanded="true" signature="1919:1965" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Structure.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+              <folding>
+                <marker date="1543833888000" expanded="true" signature="77:1528" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="106:207" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="236:337" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="395:929" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="565:925" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="987:1525" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="1157:1521" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Generic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding>
+                <marker date="1543833888000" expanded="false" signature="6:61" ph="..." />
+                <marker date="1543833888000" expanded="true" signature="118:1252" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="181:187" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="216:221" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="250:270" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="297:826" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="564:754" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="637:749" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="699:743" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="772:822" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="854:1030" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="948:999" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="1064:1249" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1544357656727" expanded="true" signature="6:71" ph="..." />
+                <marker date="1544357656727" expanded="true" signature="89:3846" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="207:3844" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="2792:2966" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="3102:3139" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="3208:3306" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="3372:3430" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="3499:3572" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="3643:3726" ph="{...}" />
+                <marker date="1544357656727" expanded="true" signature="3794:3840" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Generator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1544357649131" expanded="true" signature="6:81" ph="..." />
+                <marker date="1544357649131" expanded="true" signature="99:19061" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="141:19059" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="404:481" ph="///   &lt;para&gt;Generates a random world.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="507:1185" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1189:1301" ph="///   &lt;para&gt;Initializes the random number generator with the given seed.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="1332:1544" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1408:1493" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1442:1488" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1548:1662" ph="///   &lt;para&gt;Makes mountains that are surrounded by mountains twice as big.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="1694:2143" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1789:2139" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1873:1986" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="1932:1980" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="2008:2134" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="2147:2364" ph="///   &lt;para&gt;Creates a square ocean of the given size including outer static and inner non-static ocean.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="2407:4011" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="2671:2886" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="2721:2881" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="2762:2875" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="2962:4007" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="3054:4002" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="3354:3444" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="3632:3996" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="4015:5240" ph="/*   &lt;para&gt;Creates shallow oceans around land and makes deep ocean tiles static.&lt;/para&gt; ... */" />
+                <marker date="1544357649131" expanded="true" signature="5244:5426" ph="///   &lt;para&gt;Creates a natural looking continent fit for the given player count.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="5480:6362" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="5775:6160" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="5893:5935" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="6223:6279" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="6366:6649" ph="///   &lt;para&gt;Creates random forests.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="6738:7275" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="6837:7271" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="6989:7024" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="7096:7266" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="7202:7240" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="7279:7567" ph="///   &lt;para&gt;Creates random lakes.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="7654:8131" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="7689:7738" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="7822:8127" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="8039:8122" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="8135:8447" ph="///   &lt;para&gt;Creates random mountain ranges.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="8538:9024" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="8587:8635" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="8719:9020" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="8932:9015" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="9028:9193" ph="///   &lt;para&gt;Uses pathfinding to ensure a connection between all players. If no path exists, then it will create o ... " />
+                <marker date="1544357649131" expanded="true" signature="9222:10824" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="9406:9600" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="9644:10820" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="9727:9756" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="9854:10564" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="9950:10558" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="10154:10303" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="10356:10448" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="10448:10551" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="10570:10815" ph="/* TileController last = null; ... */" />
+                <marker date="1544357649131" expanded="true" signature="10828:10952" ph="///   &lt;para&gt;Makes sure the given spawn area is fair and has access to all resources.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="10988:11940" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="11074:11936" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="11944:12221" ph="///   &lt;para&gt;Distributes sound sources of all sound-enabled tiles evenly across the world.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="12291:13314" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12350:13310" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12550:12751" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12630:12715" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12675:12708" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12826:13025" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12893:12927" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="12979:13019" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="13094:13305" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="13318:13716" ph="///   &lt;para&gt;Draws a squiggly line into a specific direction.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="13855:14516" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="13969:14495" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="14133:14277" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="14357:14460" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="14647:14740" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="14744:15099" ph="///   &lt;para&gt;Replaces adjacent tiles.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="15223:15753" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="15319:15729" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="15369:15724" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="15447:15550" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="15649:15718" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="15869:15949" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="16065:16153" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="16263:16351" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="16446:16530" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="16610:16688" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="16692:17135" ph="///   &lt;para&gt;Draws a, well, technically more of a hexagon, of the given radius.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="17263:17659" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="17538:17638" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="17779:17865" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="17869:18325" ph="///   &lt;para&gt;Draws a natural-looking land around a given origin tile.&lt;/para&gt; ... " />
+                <marker date="1544357649131" expanded="true" signature="18439:19056" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="18538:18562" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="18610:18915" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="18652:18752" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="18825:18910" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="18935:19035" ph="{...}" />
+                <marker date="1544357649131" expanded="true" signature="18969:19030" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Pathfinder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="5" column="115" selection-start-line="5" selection-start-column="103" selection-end-line="5" selection-end-column="115" />
+              <folding>
+                <marker date="1543833888000" expanded="false" signature="6:52" ph="..." />
+                <marker date="1543833888000" expanded="true" signature="97:1094" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="210:945" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="490:925" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="557:701" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="596:660" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="751:920" ph="{...}" />
+                <marker date="1543833888000" expanded="true" signature="1031:1091" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+              <folding>
+                <marker date="1544358012450" expanded="true" signature="6:98" ph="..." />
+                <marker date="1544358012450" expanded="true" signature="141:3332" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="958:988" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1005:1262" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1031:1056" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1086:1115" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1282:1458" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1476:1569" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1588:1681" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1713:2119" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="1717:1814" ph="/* Fisher-Yates shuffle ... */" />
+                <marker date="1544358012450" expanded="true" signature="1880:2047" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="2147:2512" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="2246:2380" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="2558:2611" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="2657:3263" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="2910:3242" ph="{...}" />
+                <marker date="1544358012450" expanded="true" signature="3295:3330" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding>
+                <marker date="1543833886000" expanded="false" signature="6:110" ph="..." />
+                <marker date="1543833886000" expanded="true" signature="474:518" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="538:582" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="585:664" ph="/* public List&lt;Structure&gt; GetOwnedStructures() { ... */" />
+                <marker date="1543833886000" expanded="true" signature="689:756" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="806:917" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="835:914" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="920:1051" ph="/* public void Build(Structure structure, TileController position) { ... */" />
+                <marker date="1543833886000" expanded="true" signature="1097:1123" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1180:1234" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1237:1348" ph="/* public void Destroy(Structure structure) { ... */" />
+                <marker date="1543833886000" expanded="true" signature="1391:1448" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1451:1633" ph="/* public void GainStructure(Structure structure) { ... */" />
+                <marker date="1543833886000" expanded="true" signature="1687:1965" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1740:1962" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="1745:1958" ph="/* _protocol.Add(something); ... */" />
+                <marker date="1543833886000" expanded="true" signature="1987:2017" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="2039:2177" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="2069:2130" ph="/* send protocol to game manager, then: ... */" />
+                <marker date="1543833886000" expanded="true" signature="2198:2219" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="2246:2294" ph="{...}" />
+                <marker date="1543833886000" expanded="true" signature="2316:2338" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GetLastTileController</find>
+      <find>.tile</find>
+      <find>Tile.Find(&quot;field&quot;)</find>
+      <find>Tile.Find(&quot;water&quot;)</find>
+      <find>Tile.field</find>
+      <find>GetTile()</find>
+      <find>Random.value</find>
+      <find>.IsType</find>
+      <find>Tiles/</find>
+      <find>ContainsKey</find>
+      <find>_world.settlementTile</find>
+      <find>_last</find>
+      <find>_world.</find>
+      <find>TileController.GetTile</find>
+      <find>waterOcean</find>
+      <find>shuffle</find>
+      <find>Yates</find>
+      <find>_players</find>
+      <find>Debug</find>
+      <find>_LineColor</find>
+      <find>_LineColor1</find>
+      <find>MeshFilter</find>
+      <find>Destroyed</find>
+      <find>meadow</find>
+      <find>&quot;meadow&quot;</find>
+      <find>List&lt;GameObject&gt;</find>
+      <find>selecta</find>
+      <find>owmer</find>
+      <find>MoveCursor</find>
+      <find>Production</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_world</replace>
+      <replace>diameter</replace>
+      <replace>TileController</replace>
+      <replace>Direction.Random()</replace>
+      <replace>RemoveTile</replace>
+      <replace>GetLastTile</replace>
+      <replace>.GetTile()</replace>
+      <replace>Tile.field</replace>
+      <replace>Tile.water</replace>
+      <replace>_world.fieldTile</replace>
+      <replace>tile</replace>
+      <replace>.name.Equals</replace>
+      <replace>_world.GetTile(&quot;settlement&quot;)</replace>
+      <replace>TileController.</replace>
+      <replace>_world.GetTile</replace>
+      <replace>lastTile</replace>
+      <replace>instance._players</replace>
+      <replace>Ruins</replace>
+      <replace>&quot;empty&quot;</replace>
+      <replace>GameObject[]</replace>
+      <replace>Consumption</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Unit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/e6/a725c42b/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/97F62301-CF01-49A2-AFD9-8E4E23168369/55/767ac53a/Queue`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Settlement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A19EA8C9-5F13-45F8-88BD-33F99FA73B94/61/6790ef17/LayoutGroup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://B:/Coffeeshop/Coffeeshop/Assets/Scripts/Characters/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Players/AIPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Units/Knight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Players/NetworkPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6706B58-C41C-47C7-B584-E0F10456971D/f7/d6100f70/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/0f/35e2a71e/Tile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6706B58-C41C-47C7-B584-E0F10456971D/8f/7756a253/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/9f/024bb2d1/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Players/LocalPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Tile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/d7/dbe5bed3/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Structure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Pathfinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/BlendedDecal.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8425DE2B-35E0-4636-AC73-943E4AE2ACC6/e6/cad0981e/Hashtable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://B:/Endabgabe Autorensysteme/Projekt/Assets/Scripts/Characters/BaseCharacter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/FixBlenderImportRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Generic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/Direction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/38/3c39dc7f/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/World/TileController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineFill.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8425DE2B-35E0-4636-AC73-943E4AE2ACC6/cb/785938c3/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineMask.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/4c/4673d576/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/ed/d694f112/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Generators/Generator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Generators/DefaultMapGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/MapGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Players/AIPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Players/NetworkPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/TileType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/NorthWest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/NorthEast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/South.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/SouthEast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/SouthWest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Directions/North.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resource.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Music.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/BlendedDecal.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Natural.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Players/HumanPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/OutlineEffect/Resources/OutlineShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/OutlineEffect/Resources/OutlineBufferShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineMask.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Players/LocalPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" />
+        <option value="$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineFill.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RadialMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RadialMenuLayout.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RadialLayoutGroup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Field.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tileset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Pathfinder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Structure.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Loader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Settlement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Structure.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/TileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Generic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Generator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="557" />
+    <option name="y" value="-18" />
+    <option name="width" value="810" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="QuickOutline" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="QuickOutline" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="QuickOutline" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+              <item name="Shaders" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="QuickOutline" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Players" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="World" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="World" type="1045f7f1:UnityExplorerNode" />
+              <item name="Tiles" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="World" type="1045f7f1:UnityExplorerNode" />
+              <item name="Units" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Shaders" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Tiles" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50fcd93c-e2ad-413b-a96c-973fdb0c2075" name="Default Changelist" comment="" />
+      <created>1540393140510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540393140510</updated>
+      <workItem from="1540393144037" duration="33000" />
+      <workItem from="1540393191341" duration="206000" />
+      <workItem from="1540393488683" duration="20000" />
+      <workItem from="1540393522112" duration="1000" />
+      <workItem from="1540393571543" duration="2409000" />
+      <workItem from="1540403522135" duration="14226000" />
+      <workItem from="1540477624684" duration="11905000" />
+      <workItem from="1540496214020" duration="9759000" />
+      <workItem from="1540546619962" duration="16859000" />
+      <workItem from="1540566853698" duration="3426000" />
+      <workItem from="1540582305509" duration="9876000" />
+      <workItem from="1540627221138" duration="3813000" />
+      <workItem from="1540636325841" duration="5865000" />
+      <workItem from="1540657079327" duration="9724000" />
+      <workItem from="1540725357631" duration="6993000" />
+      <workItem from="1540736564895" duration="696000" />
+      <workItem from="1540752087556" duration="8453000" />
+      <workItem from="1540987143164" duration="10249000" />
+      <workItem from="1541013892233" duration="19536000" />
+      <workItem from="1541082381593" duration="13483000" />
+      <workItem from="1541181418559" duration="8790000" />
+      <workItem from="1541236528325" duration="3433000" />
+      <workItem from="1541243905443" duration="4012000" />
+      <workItem from="1541258799622" duration="5445000" />
+      <workItem from="1541278943187" duration="7402000" />
+      <workItem from="1541323624740" duration="2558000" />
+      <workItem from="1541362098947" duration="2970000" />
+      <workItem from="1542115741275" duration="3819000" />
+      <workItem from="1542123903784" duration="3815000" />
+      <workItem from="1542134738528" duration="1136000" />
+      <workItem from="1542193415029" duration="16778000" />
+      <workItem from="1542220285991" duration="4045000" />
+      <workItem from="1542286899154" duration="6338000" />
+      <workItem from="1542308346878" duration="7773000" />
+      <workItem from="1542362639558" duration="1781000" />
+      <workItem from="1542383273554" duration="2589000" />
+      <workItem from="1542393725059" duration="4814000" />
+      <workItem from="1542446099304" duration="3783000" />
+      <workItem from="1542458155651" duration="1878000" />
+      <workItem from="1542548323005" duration="3793000" />
+      <workItem from="1543073188301" duration="2907000" />
+      <workItem from="1543076790152" duration="2733000" />
+      <workItem from="1543087859793" duration="7102000" />
+      <workItem from="1543139425710" duration="671000" />
+      <workItem from="1543145556369" duration="18343000" />
+      <workItem from="1543171232102" duration="5636000" />
+      <workItem from="1543501578488" duration="2393000" />
+      <workItem from="1544273359856" duration="116000" />
+      <workItem from="1544357635258" duration="377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="284762000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10572337" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49960256" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49960256" weight="0.3299532" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50039744" side_tool="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Unity" order="14" />
+      <window_info anchor="bottom" x="-1080" y="23" width="1080" height="1897" id="Build" order="15" type="WINDOWED" visible="true" weight="0.18330733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/e6/a725c42b/Random.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Resource.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Players/AIPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/ClippableObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tiles/field.asset">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://B:/Coffeeshop/Coffeeshop/Assets/Scripts/Characters/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Demo/Toggle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Demo/MaterialSwitcher.cs" />
+    <entry file="file://B:/Desktop/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Natural.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Direction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4323">
+          <caret line="132" column="48" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Unit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Demo/OutlineAnimation.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/LinkedSet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Readme.txt" />
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Outline.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Players/NetworkPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Resources/OutlineShader.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/OutlineEffect.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Resources/OutlineBufferShader.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/BlendedDecal.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials/OutlineMask.mat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QuickOutline/Resources/Materials/OutlineFill.mat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QuickOutline/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Players/LocalPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineMask.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/QuickOutline/Resources/Shaders/OutlineFill.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8425DE2B-35E0-4636-AC73-943E4AE2ACC6/e6/cad0981e/Hashtable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2947">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RadialLayoutGroup.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A19EA8C9-5F13-45F8-88BD-33F99FA73B94/61/6790ef17/LayoutGroup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/0f/35e2a71e/Tile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tileset.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Field.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Loader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90335278-A486-40ED-A825-F386CFA02230/d7/dbe5bed3/Object.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="355" column="20" selection-start-line="355" selection-start-column="20" selection-end-line="355" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8425DE2B-35E0-4636-AC73-943E4AE2ACC6/cb/785938c3/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="180" column="5" lean-forward="true" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/TileController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9174">
+          <caret line="285" column="27" selection-start-line="285" selection-start-column="27" selection-end-line="285" selection-end-column="27" />
+          <folding>
+            <marker date="1543834898000" expanded="false" signature="6:199" ph="..." />
+            <marker date="1543834898000" expanded="true" signature="217:23783" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="264:23781" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="2220:2361" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="2417:2465" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="2513:2550" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="2554:2776" ph="///   &lt;para&gt;Starts preview mode for a given tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="2873:3258" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="3220:3254" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="3262:3507" ph="/* public static void EndPreviewMode() { ... */" />
+            <marker date="1543834898000" expanded="true" signature="3569:3706" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="3765:4189" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="3854:3985" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4124:4160" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4232:4273" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4331:4830" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4434:4761" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4615:4756" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
+            <marker date="1543834898000" expanded="true" signature="4761:4826" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4889:5168" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4960:5164" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="4966:5103" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
+            <marker date="1543834898000" expanded="true" signature="5172:5259" ph="///   &lt;para&gt;Returns the currently focused tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="5302:5325" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="5329:5420" ph="///   &lt;para&gt;Returns the current owner of this tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="5458:5481" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="5485:5579" ph="///   &lt;para&gt;Returns the current occupant of this tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="5620:5646" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="5650:5785" ph="///   &lt;para&gt;Changes the focused tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="5848:6060" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="5873:5947" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="6064:6131" ph="///   &lt;para&gt;Disables focus.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="6168:6257" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="6261:6342" ph="///   &lt;para&gt;Draws outlines around realms.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="6373:7201" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="6521:6606" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="6633:6721" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="6749:6858" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="6887:6996" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7040:7153" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7153:7197" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7228:7283" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7312:7368" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7398:7456" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7488:7547" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7551:7636" ph="///   &lt;para&gt;When this tile gains hover focus.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="7667:7879" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="7883:7968" ph="///   &lt;para&gt;When this tile loses hover focus.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="7998:8163" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="8167:8245" ph="///   &lt;para&gt;When this tile is clicked.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="8275:8468" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="8387:8417" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="8473:8618" ph="///   &lt;para&gt;Sets the owner of this tile and updates realms.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="8667:8766" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="8770:8881" ph="///   &lt;para&gt;Checks tiles for ownership and updates occupation radiuses.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="8918:9296" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="8984:9292" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="9068:9287" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="9107:9149" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="9193:9249" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="9300:9682" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="9789:11270" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="9898:10042" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="10046:10603" ph="/* var tilePrototype = Instantiate(GameManager.instance.tilePrototype); ... */" />
+            <marker date="1543834898000" expanded="true" signature="10798:10899" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="10853:10894" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="10936:10994" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="11060:11172" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="11274:11574" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="11664:11728" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="11732:12024" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="12120:12201" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="12205:12415" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="12494:12551" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="12555:12792" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="12902:13665" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="13004:13159" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="13159:13425" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="13669:13868" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="13961:14031" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="14146:14791" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="14499:14771" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="14639:14745" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="14696:14739" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="14795:14909" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="14956:15273" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="15045:15254" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="15113:15249" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="15204:15243" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="15277:15472" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match a specified tile type.&lt;/para ... " />
+            <marker date="1543834898000" expanded="true" signature="15534:15746" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="15672:15727" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="15750:15950" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match the specified tile types.&lt;/p ... " />
+            <marker date="1543834898000" expanded="true" signature="16026:16169" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="16108:16150" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="16173:16266" ph="///   &lt;para&gt;Returns the last created or changed tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="16308:16337" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="16341:16465" ph="///   &lt;para&gt;Returns the first ever created tile (should be located at Vector3.zero).&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="16509:16533" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="16537:16631" ph="///   &lt;para&gt;Checks if there are any neighboring tiles.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="16660:16701" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="16705:16861" ph="///   &lt;para&gt;Checks if there is a neighboring tile in the specified direction.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="16909:16956" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="16960:17134" ph="///   &lt;para&gt;Gets the local position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="17193:17226" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="17230:17404" ph="///   &lt;para&gt;Gets the world position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="17471:17536" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="17540:17742" ph="///   &lt;para&gt;Gets the neighboring tile controller in the specified direction if it exists. Uses ray casting to det ... " />
+            <marker date="1543834898000" expanded="true" signature="17800:18057" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="18061:18185" ph="///   &lt;para&gt;Gets all neighboring tile controllers. Uses ray casting to detect tiles.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="18231:18442" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="18327:18417" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="18361:18412" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="18446:18644" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="18713:19676" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="18799:19341" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="18875:18948" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19078:19336" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19201:19330" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19235:19323" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19460:19619" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19503:19614" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19559:19608" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19680:19876" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="19942:19990" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="19994:20137" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="20188:20237" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="20241:20366" ph="///   &lt;para&gt;Changes this tiles model.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="20414:20698" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="20702:20813" ph="///   &lt;para&gt;Updates road decals on tile according to neighboring tiles.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="20847:21873" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="20896:21869" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="20915:21701" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="20950:21695" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21040:21513" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21084:21194" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21231:21505" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21513:21688" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21569:21680" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21701:21864" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21753:21858" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="21877:22023" ph="///   &lt;para&gt;Adds or removes a road on this tile.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="22058:22660" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22134:22152" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22223:22351" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22397:22502" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22617:22656" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22664:22746" ph="///   &lt;para&gt;Checks if this tile is a road.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="22770:22794" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22798:22880" ph="///   &lt;para&gt;Highlights this tile visually.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="22929:23112" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="22971:23108" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23151:23180" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23184:23269" ph="///   &lt;para&gt;Un-highlights this tile visually.&lt;/para&gt; ... " />
+            <marker date="1543834898000" expanded="true" signature="23307:23464" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23349:23460" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23513:23703" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23558:23699" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23606:23694" ph="{...}" />
+            <marker date="1543834898000" expanded="true" signature="23733:23778" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="20" column="192" selection-start-line="20" selection-start-column="192" selection-end-line="20" selection-end-column="192" />
+          <folding>
+            <marker date="1543833886000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1543833886000" expanded="true" signature="103:139" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="767:802" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="847:890" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="941:1276" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1137:1198" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1327:1599" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1463:1580" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1657:1999" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1861:1938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Settlement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <marker date="1543836092000" expanded="false" signature="6:95" ph="..." />
+            <marker date="1543836092000" expanded="true" signature="151:2006" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="258:264" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="293:298" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="327:351" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="382:589" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="621:677" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="730:1570" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="892:1505" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="988:1308" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="1046:1302" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="1156:1265" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="1204:1257" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="1464:1500" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="1627:2003" ph="{...}" />
+            <marker date="1543836092000" expanded="true" signature="1919:1965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Structure.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <marker date="1543833888000" expanded="true" signature="77:1528" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="106:207" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="236:337" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="395:929" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="565:925" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="987:1525" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="1157:1521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tiles/Generic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <marker date="1543833888000" expanded="false" signature="6:61" ph="..." />
+            <marker date="1543833888000" expanded="true" signature="118:1252" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="181:187" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="216:221" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="250:270" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="297:826" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="564:754" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="637:749" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="699:743" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="772:822" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="854:1030" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="948:999" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="1064:1249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Pathfinder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="5" column="115" selection-start-line="5" selection-start-column="103" selection-end-line="5" selection-end-column="115" />
+          <folding>
+            <marker date="1543833888000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1543833888000" expanded="true" signature="97:1094" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="210:945" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="490:925" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="557:701" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="596:660" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="751:920" ph="{...}" />
+            <marker date="1543833888000" expanded="true" signature="1031:1091" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <marker date="1543833886000" expanded="false" signature="6:110" ph="..." />
+            <marker date="1543833886000" expanded="true" signature="474:518" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="538:582" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="585:664" ph="/* public List&lt;Structure&gt; GetOwnedStructures() { ... */" />
+            <marker date="1543833886000" expanded="true" signature="689:756" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="806:917" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="835:914" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="920:1051" ph="/* public void Build(Structure structure, TileController position) { ... */" />
+            <marker date="1543833886000" expanded="true" signature="1097:1123" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1180:1234" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1237:1348" ph="/* public void Destroy(Structure structure) { ... */" />
+            <marker date="1543833886000" expanded="true" signature="1391:1448" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1451:1633" ph="/* public void GainStructure(Structure structure) { ... */" />
+            <marker date="1543833886000" expanded="true" signature="1687:1965" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1740:1962" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="1745:1958" ph="/* _protocol.Add(something); ... */" />
+            <marker date="1543833886000" expanded="true" signature="1987:2017" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="2039:2177" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="2069:2130" ph="/* send protocol to game manager, then: ... */" />
+            <marker date="1543833886000" expanded="true" signature="2198:2219" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="2246:2294" ph="{...}" />
+            <marker date="1543833886000" expanded="true" signature="2316:2338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Generator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544357649131" expanded="true" signature="6:81" ph="..." />
+            <marker date="1544357649131" expanded="true" signature="99:19061" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="141:19059" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="404:481" ph="///   &lt;para&gt;Generates a random world.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="507:1185" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1189:1301" ph="///   &lt;para&gt;Initializes the random number generator with the given seed.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="1332:1544" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1408:1493" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1442:1488" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1548:1662" ph="///   &lt;para&gt;Makes mountains that are surrounded by mountains twice as big.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="1694:2143" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1789:2139" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1873:1986" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="1932:1980" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="2008:2134" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="2147:2364" ph="///   &lt;para&gt;Creates a square ocean of the given size including outer static and inner non-static ocean.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="2407:4011" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="2671:2886" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="2721:2881" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="2762:2875" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="2962:4007" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="3054:4002" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="3354:3444" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="3632:3996" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="4015:5240" ph="/*   &lt;para&gt;Creates shallow oceans around land and makes deep ocean tiles static.&lt;/para&gt; ... */" />
+            <marker date="1544357649131" expanded="true" signature="5244:5426" ph="///   &lt;para&gt;Creates a natural looking continent fit for the given player count.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="5480:6362" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="5775:6160" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="5893:5935" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="6223:6279" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="6366:6649" ph="///   &lt;para&gt;Creates random forests.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="6738:7275" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="6837:7271" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="6989:7024" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="7096:7266" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="7202:7240" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="7279:7567" ph="///   &lt;para&gt;Creates random lakes.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="7654:8131" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="7689:7738" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="7822:8127" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="8039:8122" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="8135:8447" ph="///   &lt;para&gt;Creates random mountain ranges.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="8538:9024" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="8587:8635" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="8719:9020" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="8932:9015" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="9028:9193" ph="///   &lt;para&gt;Uses pathfinding to ensure a connection between all players. If no path exists, then it will create o ... " />
+            <marker date="1544357649131" expanded="true" signature="9222:10824" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="9406:9600" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="9644:10820" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="9727:9756" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="9854:10564" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="9950:10558" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="10154:10303" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="10356:10448" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="10448:10551" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="10570:10815" ph="/* TileController last = null; ... */" />
+            <marker date="1544357649131" expanded="true" signature="10828:10952" ph="///   &lt;para&gt;Makes sure the given spawn area is fair and has access to all resources.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="10988:11940" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="11074:11936" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="11944:12221" ph="///   &lt;para&gt;Distributes sound sources of all sound-enabled tiles evenly across the world.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="12291:13314" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12350:13310" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12550:12751" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12630:12715" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12675:12708" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12826:13025" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12893:12927" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="12979:13019" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="13094:13305" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="13318:13716" ph="///   &lt;para&gt;Draws a squiggly line into a specific direction.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="13855:14516" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="13969:14495" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="14133:14277" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="14357:14460" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="14647:14740" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="14744:15099" ph="///   &lt;para&gt;Replaces adjacent tiles.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="15223:15753" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="15319:15729" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="15369:15724" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="15447:15550" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="15649:15718" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="15869:15949" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="16065:16153" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="16263:16351" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="16446:16530" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="16610:16688" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="16692:17135" ph="///   &lt;para&gt;Draws a, well, technically more of a hexagon, of the given radius.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="17263:17659" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="17538:17638" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="17779:17865" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="17869:18325" ph="///   &lt;para&gt;Draws a natural-looking land around a given origin tile.&lt;/para&gt; ... " />
+            <marker date="1544357649131" expanded="true" signature="18439:19056" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="18538:18562" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="18610:18915" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="18652:18752" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="18825:18910" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="18935:19035" ph="{...}" />
+            <marker date="1544357649131" expanded="true" signature="18969:19030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Tile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544357656727" expanded="true" signature="6:71" ph="..." />
+            <marker date="1544357656727" expanded="true" signature="89:3846" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="207:3844" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="2792:2966" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="3102:3139" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="3208:3306" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="3372:3430" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="3499:3572" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="3643:3726" ph="{...}" />
+            <marker date="1544357656727" expanded="true" signature="3794:3840" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+          <folding>
+            <marker date="1544358012450" expanded="true" signature="6:98" ph="..." />
+            <marker date="1544358012450" expanded="true" signature="141:3332" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="958:988" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1005:1262" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1031:1056" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1086:1115" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1282:1458" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1476:1569" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1588:1681" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1713:2119" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="1717:1814" ph="/* Fisher-Yates shuffle ... */" />
+            <marker date="1544358012450" expanded="true" signature="1880:2047" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="2147:2512" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="2246:2380" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="2558:2611" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="2657:3263" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="2910:3242" ph="{...}" />
+            <marker date="1544358012450" expanded="true" signature="3295:3330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

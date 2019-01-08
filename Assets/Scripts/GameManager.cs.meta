@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3cc82be84b830bb48975c2e56aad10a2
+timeCreated: 1540394866
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - world: {instanceID: 0}
+  - cam: {instanceID: 0}
+  - tilePrototype: {instanceID: 0}
+  - cursor: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

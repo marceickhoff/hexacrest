@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0d4dc06a6f6444d817cb2f9a57f45d, type: 3}
+  m_Name: village
+  m_EditorClassIdentifier: 
+  title: Village
+  description: Description
+  sound: {fileID: 82865009285564094, guid: 5a023443260a08645bae3d18e14d1a3f, type: 2}
+  buildSound: {fileID: 0}
+  destroySound: {fileID: 0}
+  selectable: 1
+  obstructed: 1
+  connectsToRoad: 1
+  occupyRadius: 5
+  maxNeighboringFacilites: 4
+  healthPoints: 3
+  constructionScore: 5
+  destructionScore: 10
+  foodStorage: 2
+  woodStorage: 2
+  ironStorage: 2
+  stoneStorage: 2
+  foodProduction: 0
+  woodProduction: 0
+  ironProduction: 0
+  stoneProduction: 0
+  foodConsumption: 0
+  woodConsumption: 0
+  ironConsumption: 0
+  stoneConsumption: 0
+  buildingCostFood: 2
+  buildingCostWood: 2
+  buildingCostIron: 0
+  buildingCostStone: 1
+  builingRestrictionsOn: []
+  builindRestrictionsNextTo: []
+  types: 

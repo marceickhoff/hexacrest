@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1904248616123046}
+  m_IsPrefabParent: 1
+--- !u!1 &1904248616123046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4629049447259920}
+  - component: {fileID: 33872578758495898}
+  - component: {fileID: 23601821462866754}
+  - component: {fileID: 64152211139911730}
+  - component: {fileID: 114063929954660846}
+  - component: {fileID: 114915758980679886}
+  m_Layer: 0
+  m_Name: city01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4629049447259920
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904248616123046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23601821462866754
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904248616123046}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 2
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
+  - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
+  - {fileID: 2100000, guid: be14df0d073c5894db7231781773b885, type: 2}
+  - {fileID: 2100000, guid: 170d81ffbb5f8874eb3660afc700d2ce, type: 2}
+  - {fileID: 2100000, guid: be14df0d073c5894db7231781773b885, type: 2}
+  - {fileID: 2100000, guid: be14df0d073c5894db7231781773b885, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33872578758495898
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904248616123046}
+  m_Mesh: {fileID: 4300000, guid: 4fb0734461d2c4041a5e17234d9d2d9f, type: 3}
+--- !u!64 &64152211139911730
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904248616123046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 4fb0734461d2c4041a5e17234d9d2d9f, type: 3}
+--- !u!114 &114063929954660846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904248616123046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464ed14f704750d449350cf5c3d9f6eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 0ec82fa2e73ec8e43b8be5b273e43631, type: 2}
+  outline: {fileID: 0}
+  _controlledBy: {fileID: 0}
+  roadDecal: {fileID: 100012, guid: 063b7c3fdfc3c4a4cb9f8e33d1987240, type: 3}
+  isHighlightedHover: 0
+  isHighlightedCursor: 0
+  isHighlightedNeutral: 0
+  isHighlightedPositive: 0
+  isHighlightedNegative: 0
+  variantDefault: {fileID: 0}
+  variantDestroyed: {fileID: 114679027878614982, guid: 1e761b8b555fe284289d40d68b367ea8,
+    type: 2}
+  variantRoad: {fileID: 0}
+--- !u!114 &114915758980679886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904248616123046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11c6b73e9384907888b34017d2f9d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settlementMenu: {fileID: 1575603324165758, guid: e83c5e2f2d27c4c478b86fbd7ab7cb00,
+    type: 2}
+  settlementBuildMenu: {fileID: 1732898901491804, guid: abe82a0c00c58de489fbdb6ab27fee33,
+    type: 2}
