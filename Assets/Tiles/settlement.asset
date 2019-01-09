@@ -29,10 +29,10 @@ MonoBehaviour:
   healthPoints: 2
   constructionScore: 5
   destructionScore: 5
-  foodStorage: 2
-  woodStorage: 2
-  ironStorage: 2
-  stoneStorage: 2
+  foodStorage: 99
+  woodStorage: 99
+  ironStorage: 99
+  stoneStorage: 99
   foodProduction: 0
   woodProduction: 0
   ironProduction: 0

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using PostFX;
 
 public class CameraController : MonoBehaviour {
 	public float panSpeed = 1f;
@@ -67,6 +68,8 @@ public class CameraController : MonoBehaviour {
 		pos.y = Mathf.Clamp(pos.y, zoomMin, zoomMax);
 		var relativePanSpeed = panSpeed / 3 * (pos.y / zoomMax);
 		var factor = (pos.y - zoomMin) / (zoomMax - zoomMin);
+		GetComponent<TiltShift>().Radius = 2f - 2f * factor;
+		GetComponent<TiltShift>().Offset = (Input.mousePosition.y - Screen.height / 2) / (Screen.height / 2) * -1;
 		_windSound.volume = factor;
 		var angle = _angleMin + angleRange * factor;
 		rot.x = angle;

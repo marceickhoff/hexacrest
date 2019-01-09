@@ -1,8 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D924DC6A-FB1A-24E2-8004-4F9ED9952BE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexacrest", "Assembly-CSharp.csproj", "{D924DC6A-FB1A-24E2-8004-4F9ED9952BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{0AF2CE08-B591-B030-6888-F6CED09AC090}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexacrest", "Assembly-CSharp-Editor.csproj", "{0AF2CE08-B591-B030-6888-F6CED09AC090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

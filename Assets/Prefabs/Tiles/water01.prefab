@@ -111,11 +111,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: cccc77525cc723c43a35706732642735, type: 2}
-  owner: {fileID: 0}
-  influencer: {fileID: 0}
   outline: {fileID: 0}
+  controlledBy: {fileID: 0}
+  oldAssociatedFacilites: []
+  roadDecal: {fileID: 0}
   isHighlightedHover: 0
   isHighlightedCursor: 0
   isHighlightedNeutral: 0
   isHighlightedPositive: 0
   isHighlightedNegative: 0
+  variantDefault: {fileID: 0}
+  variantDestroyed: {fileID: 0}
+  variantRoad: {fileID: 0}

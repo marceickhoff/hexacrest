@@ -147,7 +147,6 @@ namespace World {
 					areaTile.MarkNeutral();
 				}
 				else {
-					Debug.Log("negative");
 					areaTile.MarkNegative();
 				}
 			}
@@ -437,7 +436,6 @@ namespace World {
 		}
 
 		public bool HasEntities() {
-			Debug.Log("entities: "+_entities.Count);
 			return _entities.Count > 0;
 		}
 
