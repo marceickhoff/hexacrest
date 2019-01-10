@@ -58,10 +58,9 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
-  - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
   - {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
   - {fileID: 2100000, guid: 156bec1d33f217f4ea9f7c93dbe7e1c4, type: 2}
+  - {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
   - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -116,7 +115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: c0cf21039dd893d46abba8dcb12764d8, type: 2}
   outline: {fileID: 0}
-  _controlledBy: {fileID: 0}
+  controlledBy: {fileID: 0}
+  oldAssociatedFacilites: []
   roadDecal: {fileID: 100012, guid: 063b7c3fdfc3c4a4cb9f8e33d1987240, type: 3}
   isHighlightedHover: 0
   isHighlightedCursor: 0

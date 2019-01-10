@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 9858474b301f2954b917615c9adb987f
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
@@ -10,12 +10,12 @@ ModelImporter:
     2100004: Walls
     2100006: Roof
     2100008: Road
+    2100010: Roofs
     2300000: //RootNode
     3300000: //RootNode
     4300000: Tile
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -31,6 +31,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof
+    second: {fileID: 2100000, guid: 156bec1d33f217f4ea9f7c93dbe7e1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roofs
     second: {fileID: 2100000, guid: 156bec1d33f217f4ea9f7c93dbe7e1c4, type: 2}
   - first:
       type: UnityEngine:Material
@@ -60,7 +65,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -92,8 +96,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
