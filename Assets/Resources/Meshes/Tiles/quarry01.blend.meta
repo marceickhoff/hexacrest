@@ -1,19 +1,56 @@
 fileFormatVersion: 2
 guid: be1cbb0989f178646b83d463638e04e4
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_002
+    100008: Cube_003
+    100010: Cube_005
+    100012: Cube_008
+    100014: Cylinder
     400000: //RootNode
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_002
+    400008: Cube_003
+    400010: Cube_005
+    400012: Cube_008
+    400014: Cylinder
     2100000: Inside
     2100002: Base
     2100004: Top
+    2100006: unnamed
+    2100008: Rope
+    2100010: Roof
+    2100012: Wood
     2300000: //RootNode
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: Cube_003
+    2300010: Cube_005
+    2300012: Cube_008
+    2300014: Cylinder
     3300000: //RootNode
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: Cube_003
+    3300010: Cube_005
+    3300012: Cube_008
+    3300014: Cylinder
     4300000: Cylinder
+    4300002: Cube_003
+    4300004: Cube_002
+    4300006: Cube
+    4300008: Cube_008
+    4300010: Cube_005
+    4300012: Cube_001
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -28,8 +65,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 170d81ffbb5f8874eb3660afc700d2ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: 452e625605cc89e4398cd2d372fe91fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Top
     second: {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -48,7 +100,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -80,8 +131,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33883827235770428}
   - component: {fileID: 23335138953090456}
   - component: {fileID: 114498394393923150}
-  - component: {fileID: 114100662773322046}
   - component: {fileID: 64887775300982286}
+  - component: {fileID: 114100662773322046}
   m_Layer: 0
   m_Name: woodcutter01
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508170035472386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59,10 +59,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
-  - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
-  - {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
   - {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
   - {fileID: 2100000, guid: 156bec1d33f217f4ea9f7c93dbe7e1c4, type: 2}
+  - {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
   - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -89,7 +88,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508170035472386}
-  m_Mesh: {fileID: 4300000, guid: 678b96472009b16469eb41fd31d8cc61, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 678b96472009b16469eb41fd31d8cc61, type: 3}
 --- !u!64 &64887775300982286
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -103,7 +102,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 678b96472009b16469eb41fd31d8cc61, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 678b96472009b16469eb41fd31d8cc61, type: 3}
 --- !u!114 &114100662773322046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,7 +127,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: f3422fd6a63bfdd41a336af94f16214c, type: 2}
   outline: {fileID: 0}
-  _controlledBy: {fileID: 0}
+  controlledBy: {fileID: 0}
+  oldAssociatedFacilites: []
   roadDecal: {fileID: 100012, guid: 063b7c3fdfc3c4a4cb9f8e33d1987240, type: 3}
   isHighlightedHover: 0
   isHighlightedCursor: 0

@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33539930984091970}
   - component: {fileID: 23653859498094094}
   - component: {fileID: 114306151328987582}
-  - component: {fileID: 64441117528110916}
   - component: {fileID: 114788199024943812}
+  - component: {fileID: 64441117528110916}
   m_Layer: 0
   m_Name: quarry01
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1585678862257330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,9 +58,12 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
+  - {fileID: 2100000, guid: 452e625605cc89e4398cd2d372fe91fc, type: 2}
+  - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
+  - {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
   - {fileID: 2100000, guid: d534d97e4991d9649ae2bb2e007c1bdc, type: 2}
   - {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
-  - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
+  - {fileID: 2100000, guid: 170d81ffbb5f8874eb3660afc700d2ce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,7 +89,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1585678862257330}
-  m_Mesh: {fileID: 4300000, guid: be1cbb0989f178646b83d463638e04e4, type: 3}
+  m_Mesh: {fileID: 4300006, guid: be1cbb0989f178646b83d463638e04e4, type: 3}
 --- !u!64 &64441117528110916
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -100,7 +103,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: be1cbb0989f178646b83d463638e04e4, type: 3}
+  m_Mesh: {fileID: 4300006, guid: be1cbb0989f178646b83d463638e04e4, type: 3}
 --- !u!114 &114306151328987582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -114,7 +117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: a6d81e99716d72245bf9fc4cc97ddc0d, type: 2}
   outline: {fileID: 0}
-  _controlledBy: {fileID: 0}
+  controlledBy: {fileID: 0}
+  oldAssociatedFacilites: []
   roadDecal: {fileID: 0}
   isHighlightedHover: 0
   isHighlightedCursor: 0

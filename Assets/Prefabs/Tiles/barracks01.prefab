@@ -124,7 +124,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
   - {fileID: 2100000, guid: e18daabf6d22cb0469021a1f68f64f8f, type: 2}
   - {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
-  - {fileID: 2100000, guid: 022eab3cafce27840a0296dc19b38461, type: 2}
+  - {fileID: 2100000, guid: d5a58a0f56cea3c4193d64a05f7b35ed, type: 2}
   - {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
   - {fileID: 2100000, guid: 452e625605cc89e4398cd2d372fe91fc, type: 2}
   m_StaticBatchInfo:
@@ -264,7 +264,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -676098021
+  randomSeed: -1981398394
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -416,7 +416,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.02
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -729,7 +729,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.05
+      value: 0.06
       mode: 0
       spread: 0
       speed:
@@ -824,7 +824,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 150
+      scalar: 500
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -906,7 +906,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 1
+    enabled: 0
     curve:
       serializedVersion: 2
       minMaxState: 3
@@ -3625,7 +3625,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -676098021
+  randomSeed: -662592518
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3777,7 +3777,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.04
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4267,7 +4267,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 1
+    enabled: 0
     curve:
       serializedVersion: 2
       minMaxState: 3
@@ -6965,7 +6965,7 @@ ParticleSystemRenderer:
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 0.02
+  m_MaxParticleSize: 2
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -7019,7 +7019,7 @@ ParticleSystemRenderer:
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 0.02
+  m_MaxParticleSize: 2
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2

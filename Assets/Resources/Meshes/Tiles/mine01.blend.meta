@@ -1,28 +1,54 @@
 fileFormatVersion: 2
 guid: 629ca6eabd2d6b24d933a7314dda81dd
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Mine
+    100004: Mine_001
     400000: //RootNode
+    400002: Mine
+    400004: Mine_001
     2100000: Stone
     2100002: Wood
     2100004: Base
     2100006: Top
     2100008: Road
     2100010: Rubble
+    2100012: Ash
+    2100014: Metal_001
+    2100016: Fire
     2300000: //RootNode
+    2300002: Mine
+    2300004: Mine_001
     3300000: //RootNode
+    3300002: Mine
+    3300004: Mine_001
     4300000: Mine
+    4300002: Mine_001
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ash
+    second: {fileID: 2100000, guid: e18daabf6d22cb0469021a1f68f64f8f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Base
     second: {fileID: 2100000, guid: d65be2f7f16e8044ebf0cc527e4f5092, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire
+    second: {fileID: 2100000, guid: 9ed9bb276e8fd9c48a7ba01111e7807d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_001
+    second: {fileID: 2100000, guid: f45fa9f1d3e0f9b4a834a6adbeae304d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -66,7 +92,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -98,8 +123,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

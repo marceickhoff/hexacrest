@@ -68,7 +68,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tents
-    second: {fileID: 2100000, guid: 022eab3cafce27840a0296dc19b38461, type: 2}
+    second: {fileID: 2100000, guid: d5a58a0f56cea3c4193d64a05f7b35ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

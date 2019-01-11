@@ -1,7 +1,9 @@
 fileFormatVersion: 2
 guid: 678b96472009b16469eb41fd31d8cc61
+timeCreated: 1547217301
+licenseType: Free
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
@@ -11,12 +13,14 @@ ModelImporter:
     2100006: Walls
     2100008: Roof
     2100010: Road
+    2100012: Wood_001
+    2100014: Roofs
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cylinder_005
+    4300002: Tile
     7400000: Default Take
     9500000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -36,6 +40,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Roofs
+    second: {fileID: 2100000, guid: 156bec1d33f217f4ea9f7c93dbe7e1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Top
     second: {fileID: 2100000, guid: acf0ed723f13a924ab92a2855ce3bcec, type: 2}
   - first:
@@ -47,6 +56,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wood
+    second: {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_001
     second: {fileID: 2100000, guid: ee98f35a74e91ce4ab9c602bf9e1c230, type: 2}
   materials:
     importMaterials: 1
@@ -66,7 +80,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -98,8 +111,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
