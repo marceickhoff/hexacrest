@@ -27,6 +27,7 @@ public abstract class PlayerController : MonoBehaviour {
 
 	private Stack<Entity> _carriedEntities = new Stack<Entity>();
 	private TileController _entitySource;
+	private List<Entity> _ownedEntities = new List<Entity>();
 
 	public Vector3 cameraPosition;
 	public Vector3 cameraPositionFocus;
@@ -71,7 +72,9 @@ public abstract class PlayerController : MonoBehaviour {
 
 	public void Kill() {
 		try {
-			Destroy(_carriedEntities.Pop().gameObject);
+			var entity = _carriedEntities.Pop();
+			_ownedEntities.Remove(entity);
+			Destroy(entity.gameObject);
 		}
 		catch (InvalidOperationException e) {
 			// No carried units
@@ -79,7 +82,7 @@ public abstract class PlayerController : MonoBehaviour {
 	}
 
 	private bool CanGrabEntity(Entity entity) {
-		return inventory.Has(entity.movementCostFood, entity.movementCostWood, entity.movementCostIron, entity.movementCostStone);
+		return inventory.Has(entity.movementCostFood, entity.movementCostWood, entity.movementCostIron, entity.movementCostStone) && entity.moved == false;
 	}
 
 	private bool CanCreateEntity(Entity entity) {
@@ -97,6 +100,7 @@ public abstract class PlayerController : MonoBehaviour {
 			}
 			_entitySource = source;
 			var entity = Instantiate(factory.entity);
+			_ownedEntities.Add(entity);
 			foreach (var material in entity.GetComponent<Renderer>().materials) {
 				if (material.name.StartsWith("Player")) {
 					material.color = color;
@@ -125,6 +129,9 @@ public abstract class PlayerController : MonoBehaviour {
 				inventory.Take(entity.movementCostStone, Inventory.Resource.Stone);
 				_carriedEntities.Push(entity);
 				if (OnEntitiesChanged != null) OnEntitiesChanged(this);
+			}
+			else {
+				UIManager.instance.PlayUISound(UIManager.instance.soundError);
 			}
 		}
 		//Debug.Log(name+" carries "+_carriedEntities.Count+" entities");
@@ -216,9 +223,12 @@ public abstract class PlayerController : MonoBehaviour {
 				try {
 					if (target.HasEnemyEntities()) {
 						var player = GameManager.instance.GetCurrentPlayer();
+						var enemy = target.GetEntityOwner();
 						if (target.GetEntityCount() == _carriedEntities.Count) {
 							if (UnityEngine.Random.value >= .5f) {
-								Destroy(target.RemoveEntity().gameObject);
+								var enemyEntity = target.RemoveEntity();
+								enemy._ownedEntities.Remove(enemyEntity);
+								Destroy(enemyEntity.gameObject);
 								player.score++;
 								continue;
 							}
@@ -228,7 +238,9 @@ public abstract class PlayerController : MonoBehaviour {
 							}
 						}
 						else {
-							Destroy(target.RemoveEntity().gameObject);
+							var enemyEntity = target.RemoveEntity();
+							enemy._ownedEntities.Remove(enemyEntity);
+							Destroy(enemyEntity.gameObject);
 							player.score++;
 							Kill();
 							continue;
@@ -279,6 +291,9 @@ public abstract class PlayerController : MonoBehaviour {
 
 	public void TurnStart(PlayerController player) {
 		if (player.Equals(this)) {
+			foreach (var entity in _ownedEntities) {
+				entity.moved = false;
+			}
 			//Debug.Log("Hi! I'm player "+name+" and it's my turn!");
 		}
 	}

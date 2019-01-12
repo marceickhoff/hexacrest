@@ -202,7 +202,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1080,7 +1080,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1188,7 +1188,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1296,7 +1296,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1858,7 +1858,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1886,15 +1886,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 4fb0734461d2c4041a5e17234d9d2d9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fb0734461d2c4041a5e17234d9d2d9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fb0734461d2c4041a5e17234d9d2d9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4fb0734461d2c4041a5e17234d9d2d9f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2218,7 +2218,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2361,7 +2361,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2504,7 +2504,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -3070,7 +3070,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -3626,7 +3626,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -3734,7 +3734,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -3901,7 +3901,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -6228,7 +6228,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -7440,7 +7440,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2
+  far clip plane: 4
   field of view: 60
   orthographic: 0
   orthographic size: 5

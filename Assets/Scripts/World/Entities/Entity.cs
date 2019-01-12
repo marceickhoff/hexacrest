@@ -16,5 +16,6 @@ namespace World.Entities {
 		[Tooltip("")] public int movementCostStone;
 
 		public PlayerController owner;
+		public bool moved;
 	}
 }

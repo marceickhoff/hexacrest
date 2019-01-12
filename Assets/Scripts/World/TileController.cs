@@ -98,6 +98,7 @@ namespace World {
 		public bool AddEntity(Entity entity) {
 			if (_entities.Count <= maxEntitiesPerTile) {
 				_entities.Push(entity);
+				entity.moved = true;
 				entity.transform.parent = transform;
 				entity.transform.position = transform.position + _entitySlots[GetEntityCount() - 1];
 				var source = GameManager.instance.GetCurrentPlayer().GetEntitySource();

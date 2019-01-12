@@ -71,6 +71,17 @@
       <e p="Assets\Shaders" t="Include">
         <e p="BlendedDecal.shader" t="Include" />
       </e>
+      <e p="Assets\Tilt Shift" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="TiltShiftEditor.cs" t="Include" />
+          </e>
+          <e p="TiltShift.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="TiltShift.shader" t="Include" />
+        </e>
+      </e>
       <e p="Hexacrest.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
