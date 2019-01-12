@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ecd75e-864f-4e84-b433-213101d26737" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hexacrest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hexacrest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hexacrest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hexacrest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/city01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/city01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/Tiles/city01.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Tiles/city01.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/Tiles/city01.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Tiles/city01.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/Tiles/city01.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Tiles/city01.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/World/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/World/Entities/Entity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/World/TileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/World/TileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/settlement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/settlement.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/demo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2e/2eaffb02f7c263b49a4543f68c93686d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2e/2eaffb02f7c263b49a4543f68c93686d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2e/2eaffb02f7c263b49a4543f68c93686d.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2e/2eaffb02f7c263b49a4543f68c93686d.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/46/464ed14f704750d449350cf5c3d9f6eb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/46/464ed14f704750d449350cf5c3d9f6eb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/4f/4fb0734461d2c4041a5e17234d9d2d9f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4f/4fb0734461d2c4041a5e17234d9d2d9f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/4f/4fb0734461d2c4041a5e17234d9d2d9f.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/4f/4fb0734461d2c4041a5e17234d9d2d9f.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/81/818a4360822243d98bf151c1f39d7b75" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/818a4360822243d98bf151c1f39d7b75" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/98/9862c118c8414fa4cb11b45e9fe99f14" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/98/9862c118c8414fa4cb11b45e9fe99f14" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/98/9862c118c8414fa4cb11b45e9fe99f14.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/98/9862c118c8414fa4cb11b45e9fe99f14.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/a5/a58143f8c83c44698b4a789f7c2135dd" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/a5/a58143f8c83c44698b4a789f7c2135dd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/c0/c0cf21039dd893d46abba8dcb12764d8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/c0/c0cf21039dd893d46abba8dcb12764d8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="22127" />
+          <entry key="cs" value="22328" />
           <entry key="shader" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="22127" />
+          <entry key="C#" value="22328" />
           <entry key="ShaderLab" value="171" />
         </counts>
       </usages-collector>
@@ -84,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="229" column="37" selection-start-line="229" selection-start-column="37" selection-end-line="229" selection-end-column="37" />
+            <state relative-caret-position="419">
+              <caret line="231" column="47" selection-start-line="231" selection-start-column="47" selection-end-line="231" selection-end-column="47" />
               <folding>
                 <marker date="1547303102064" expanded="false" signature="6:225" ph="..." />
                 <marker date="1547303102064" expanded="true" signature="282:11011" ph="{...}" />
@@ -248,211 +227,214 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/TileController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+            <state relative-caret-position="495">
+              <caret line="233" column="47" selection-start-line="233" selection-start-column="47" selection-end-line="233" selection-end-column="47" />
               <folding>
-                <marker date="1547299347183" expanded="false" signature="6:289" ph="..." />
-                <marker date="1547299347183" expanded="true" signature="307:31306" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="354:31304" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="1808:1953" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3020:3235" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3291:3415" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3463:3500" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3532:3564" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3605:4173" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3653:4152" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3938:4130" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="3989:4124" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="4040:4117" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="4207:4264" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="4297:4447" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="4324:4360" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="4400:4425" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="4451:4712" ph="///   &lt;para&gt;Starts preview mode for a given tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="4809:5337" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="5173:5333" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="5245:5281" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="5281:5328" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="5376:5657" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="5436:5531" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="5661:5906" ph="/* public static void EndPreviewMode() { ... */" />
-                <marker date="1547299347183" expanded="true" signature="5968:6323" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="6382:7475" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="6471:7389" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="6641:6692" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="6782:7363" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="6894:7158" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7262:7357" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7389:7471" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7518:7559" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7617:8966" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7720:8897" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7795:8495" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7846:8489" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="7967:8262" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="8375:8482" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="8751:8892" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
-                <marker date="1547299347183" expanded="true" signature="8897:8962" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="9025:9304" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="9096:9300" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="9102:9239" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
-                <marker date="1547299347183" expanded="true" signature="9308:9395" ph="///   &lt;para&gt;Returns the currently focused tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="9438:9461" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="9465:9556" ph="///   &lt;para&gt;Returns the current owner of this tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="9594:9617" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="9621:9715" ph="///   &lt;para&gt;Returns the current occupant of this tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="9756:9782" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="9786:9921" ph="///   &lt;para&gt;Changes the focused tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="9984:10196" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="10009:10083" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="10231:10335" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="10339:10406" ph="///   &lt;para&gt;Disables focus.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="10443:10532" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="10536:10617" ph="///   &lt;para&gt;Draws outlines around realms.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="10648:11970" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="10796:10913" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="10940:11060" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11088:11229" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11258:11399" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11429:11581" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11612:11765" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11809:11922" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11922:11966" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="11999:12164" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="12194:12252" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="12283:12341" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="12373:12432" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="12465:12524" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="12528:12613" ph="///   &lt;para&gt;When this tile gains hover focus.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="12639:12851" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="12855:12940" ph="/*   &lt;para&gt;When this tile loses hover focus.&lt;/para&gt; ... */" />
-                <marker date="1547299347183" expanded="true" signature="12943:13138" ph="/* public void OnMouseExit() { ... */" />
-                <marker date="1547299347183" expanded="true" signature="13142:13220" ph="///   &lt;para&gt;When this tile is clicked.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="13246:13660" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="13353:13656" ph="/* var player = GameManager.instance.GetCurrentPlayer(); ... */" />
-                <marker date="1547299347183" expanded="true" signature="13705:13767" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="13797:13847" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="13878:13929" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="13958:14046" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14074:14122" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14152:14188" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14193:14338" ph="///   &lt;para&gt;Sets the owner of this tile and updates realms.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="14387:14643" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14412:14527" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14527:14620" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14696:14724" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14728:14839" ph="///   &lt;para&gt;Checks tiles for ownership and updates occupation radiuses.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="14876:15453" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="14942:15327" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="15026:15322" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="15065:15107" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="15228:15284" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="15457:15839" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="15946:17431" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="16207:16764" ph="/* var tilePrototype = Instantiate(GameManager.instance.tilePrototype); ... */" />
-                <marker date="1547299347183" expanded="true" signature="16959:17060" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="17014:17055" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="17097:17155" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="17221:17333" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="17435:17735" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="17825:17889" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="17893:18185" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="18281:18362" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="18366:18576" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="18655:18712" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="18716:18953" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="19063:19915" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="19165:19320" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="19320:19586" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="19812:19854" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="19919:20118" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="20211:20281" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="20396:22315" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="20560:22295" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="21117:21279" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="21323:21397" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="21397:21477" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="21516:21622" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="21573:21616" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="22319:22433" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="22480:22797" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="22569:22778" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="22637:22773" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="22728:22767" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="22801:22996" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match a specified tile type.&lt;/para ... " />
-                <marker date="1547299347183" expanded="true" signature="23058:23270" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="23196:23251" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="23274:23474" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match the specified tile types.&lt;/p ... " />
-                <marker date="1547299347183" expanded="true" signature="23550:23693" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="23632:23674" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="23697:23790" ph="///   &lt;para&gt;Returns the last created or changed tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="23832:23861" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="23865:23989" ph="///   &lt;para&gt;Returns the first ever created tile (should be located at Vector3.zero).&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="24033:24057" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="24061:24155" ph="///   &lt;para&gt;Checks if there are any neighboring tiles.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="24184:24225" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="24229:24385" ph="///   &lt;para&gt;Checks if there is a neighboring tile in the specified direction.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="24433:24480" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="24484:24658" ph="///   &lt;para&gt;Gets the local position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="24717:24750" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="24754:24928" ph="///   &lt;para&gt;Gets the world position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="24995:25060" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="25064:25266" ph="///   &lt;para&gt;Gets the neighboring tile controller in the specified direction if it exists. Uses ray casting to det ... " />
-                <marker date="1547299347183" expanded="true" signature="25324:25581" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="25585:25709" ph="///   &lt;para&gt;Gets all neighboring tile controllers. Uses ray casting to detect tiles.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="25755:25966" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="25851:25941" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="25885:25936" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="25970:26168" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="26237:27200" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="26323:26865" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="26399:26472" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="26602:26860" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="26725:26854" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="26759:26847" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="26984:27143" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="27027:27138" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="27083:27132" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="27204:27400" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="27466:27514" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="27518:27661" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="27712:27761" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="27765:27890" ph="///   &lt;para&gt;Changes this tiles model.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="27938:28222" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28226:28337" ph="///   &lt;para&gt;Updates road decals on tile according to neighboring tiles.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="28371:29397" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28420:29393" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28439:29225" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28474:29219" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28564:29037" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28608:28718" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="28755:29029" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29037:29212" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29093:29204" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29225:29388" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29277:29382" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29401:29547" ph="///   &lt;para&gt;Adds or removes a road on this tile.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="29582:30183" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29657:29675" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29746:29874" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="29920:30025" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30140:30179" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30187:30269" ph="///   &lt;para&gt;Checks if this tile is a road.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="30293:30317" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30321:30403" ph="///   &lt;para&gt;Highlights this tile visually.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="30452:30635" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30494:30631" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30674:30703" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30707:30792" ph="///   &lt;para&gt;Un-highlights this tile visually.&lt;/para&gt; ... " />
-                <marker date="1547299347183" expanded="true" signature="30830:30987" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="30872:30983" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="31036:31226" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="31081:31222" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="31129:31217" ph="{...}" />
-                <marker date="1547299347183" expanded="true" signature="31256:31301" ph="{...}" />
+                <marker date="1547303646857" expanded="false" signature="6:289" ph="..." />
+                <marker date="1547303646857" expanded="true" signature="307:31457" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="354:31455" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="1808:1953" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3020:3235" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3291:3415" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3463:3500" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3532:3564" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3605:4173" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3653:4152" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3938:4130" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="3989:4124" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="4040:4117" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="4207:4264" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="4297:4447" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="4324:4360" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="4400:4425" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="4451:4712" ph="///   &lt;para&gt;Starts preview mode for a given tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="4809:5337" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="5173:5333" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="5245:5281" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="5281:5328" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="5376:5657" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="5436:5531" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="5661:5906" ph="/* public static void EndPreviewMode() { ... */" />
+                <marker date="1547303646857" expanded="true" signature="5968:6323" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="6382:7475" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="6471:7389" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="6641:6692" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="6782:7363" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="6894:7158" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7262:7357" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7389:7471" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7518:7559" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7617:8969" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7720:8900" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7795:8495" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7846:8489" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="7967:8262" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="8375:8482" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="8797:8895" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="8840:8889" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="8900:8965" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9028:9455" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9099:9451" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9105:9242" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
+                <marker date="1547303646857" expanded="true" signature="9349:9446" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9392:9440" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9459:9546" ph="///   &lt;para&gt;Returns the currently focused tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="9589:9612" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9616:9707" ph="///   &lt;para&gt;Returns the current owner of this tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="9745:9768" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9772:9866" ph="///   &lt;para&gt;Returns the current occupant of this tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="9907:9933" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="9937:10072" ph="///   &lt;para&gt;Changes the focused tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="10135:10347" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="10160:10234" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="10382:10486" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="10490:10557" ph="///   &lt;para&gt;Disables focus.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="10594:10683" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="10687:10768" ph="///   &lt;para&gt;Draws outlines around realms.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="10799:12121" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="10947:11064" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="11091:11211" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="11239:11380" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="11409:11550" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="11580:11732" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="11763:11916" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="11960:12073" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12073:12117" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12150:12315" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12345:12403" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12434:12492" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12524:12583" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12616:12675" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="12679:12764" ph="///   &lt;para&gt;When this tile gains hover focus.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="12790:13002" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="13006:13091" ph="/*   &lt;para&gt;When this tile loses hover focus.&lt;/para&gt; ... */" />
+                <marker date="1547303646857" expanded="true" signature="13094:13289" ph="/* public void OnMouseExit() { ... */" />
+                <marker date="1547303646857" expanded="true" signature="13293:13371" ph="///   &lt;para&gt;When this tile is clicked.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="13397:13811" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="13504:13807" ph="/* var player = GameManager.instance.GetCurrentPlayer(); ... */" />
+                <marker date="1547303646857" expanded="true" signature="13856:13918" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="13948:13998" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14029:14080" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14109:14197" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14225:14273" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14303:14339" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14344:14489" ph="///   &lt;para&gt;Sets the owner of this tile and updates realms.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="14538:14794" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14563:14678" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14678:14771" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14847:14875" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="14879:14990" ph="///   &lt;para&gt;Checks tiles for ownership and updates occupation radiuses.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="15027:15604" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="15093:15478" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="15177:15473" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="15216:15258" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="15379:15435" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="15608:15990" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="16097:17582" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="16358:16915" ph="/* var tilePrototype = Instantiate(GameManager.instance.tilePrototype); ... */" />
+                <marker date="1547303646857" expanded="true" signature="17110:17211" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="17165:17206" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="17248:17306" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="17372:17484" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="17586:17886" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="17976:18040" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="18044:18336" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="18432:18513" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="18517:18727" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="18806:18863" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="18867:19104" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="19214:20066" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="19316:19471" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="19471:19737" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="19963:20005" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="20070:20269" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="20362:20432" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="20547:22466" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="20711:22446" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="21268:21430" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="21474:21548" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="21548:21628" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="21667:21773" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="21724:21767" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="22470:22584" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="22631:22948" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="22720:22929" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="22788:22924" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="22879:22918" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="22952:23147" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match a specified tile type.&lt;/para ... " />
+                <marker date="1547303646857" expanded="true" signature="23209:23421" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="23347:23402" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="23425:23625" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match the specified tile types.&lt;/p ... " />
+                <marker date="1547303646857" expanded="true" signature="23701:23844" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="23783:23825" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="23848:23941" ph="///   &lt;para&gt;Returns the last created or changed tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="23983:24012" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="24016:24140" ph="///   &lt;para&gt;Returns the first ever created tile (should be located at Vector3.zero).&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="24184:24208" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="24212:24306" ph="///   &lt;para&gt;Checks if there are any neighboring tiles.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="24335:24376" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="24380:24536" ph="///   &lt;para&gt;Checks if there is a neighboring tile in the specified direction.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="24584:24631" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="24635:24809" ph="///   &lt;para&gt;Gets the local position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="24868:24901" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="24905:25079" ph="///   &lt;para&gt;Gets the world position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="25146:25211" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="25215:25417" ph="///   &lt;para&gt;Gets the neighboring tile controller in the specified direction if it exists. Uses ray casting to det ... " />
+                <marker date="1547303646857" expanded="true" signature="25475:25732" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="25736:25860" ph="///   &lt;para&gt;Gets all neighboring tile controllers. Uses ray casting to detect tiles.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="25906:26117" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26002:26092" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26036:26087" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26121:26319" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="26388:27351" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26474:27016" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26550:26623" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26753:27011" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26876:27005" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="26910:26998" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="27135:27294" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="27178:27289" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="27234:27283" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="27355:27551" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="27617:27665" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="27669:27812" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="27863:27912" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="27916:28041" ph="///   &lt;para&gt;Changes this tiles model.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="28089:28373" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28377:28488" ph="///   &lt;para&gt;Updates road decals on tile according to neighboring tiles.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="28522:29548" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28571:29544" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28590:29376" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28625:29370" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28715:29188" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28759:28869" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="28906:29180" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29188:29363" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29244:29355" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29376:29539" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29428:29533" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29552:29698" ph="///   &lt;para&gt;Adds or removes a road on this tile.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="29733:30334" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29808:29826" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="29897:30025" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30071:30176" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30291:30330" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30338:30420" ph="///   &lt;para&gt;Checks if this tile is a road.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="30444:30468" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30472:30554" ph="///   &lt;para&gt;Highlights this tile visually.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="30603:30786" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30645:30782" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30825:30854" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="30858:30943" ph="///   &lt;para&gt;Un-highlights this tile visually.&lt;/para&gt; ... " />
+                <marker date="1547303646857" expanded="true" signature="30981:31138" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="31023:31134" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="31187:31377" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="31232:31373" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="31280:31368" ph="{...}" />
+                <marker date="1547303646857" expanded="true" signature="31407:31452" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -716,8 +698,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Woodcutter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World/Tiles/Generic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World/Entities/Entity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/World/TileController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/World/TileController.cs" />
       </list>
     </option>
   </component>
@@ -891,12 +873,12 @@
       <workItem from="1546774559471" duration="10809000" />
       <workItem from="1546795328775" duration="1064000" />
       <workItem from="1546799780074" duration="6641000" />
-      <workItem from="1547299207713" duration="1124000" />
+      <workItem from="1547299207713" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111453000" />
+    <option name="totallyTimeSpent" value="111998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1335,214 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/TileController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
-          <folding>
-            <marker date="1547299347183" expanded="false" signature="6:289" ph="..." />
-            <marker date="1547299347183" expanded="true" signature="307:31306" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="354:31304" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="1808:1953" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3020:3235" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3291:3415" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3463:3500" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3532:3564" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3605:4173" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3653:4152" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3938:4130" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="3989:4124" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="4040:4117" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="4207:4264" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="4297:4447" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="4324:4360" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="4400:4425" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="4451:4712" ph="///   &lt;para&gt;Starts preview mode for a given tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="4809:5337" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="5173:5333" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="5245:5281" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="5281:5328" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="5376:5657" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="5436:5531" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="5661:5906" ph="/* public static void EndPreviewMode() { ... */" />
-            <marker date="1547299347183" expanded="true" signature="5968:6323" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="6382:7475" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="6471:7389" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="6641:6692" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="6782:7363" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="6894:7158" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7262:7357" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7389:7471" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7518:7559" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7617:8966" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7720:8897" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7795:8495" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7846:8489" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="7967:8262" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="8375:8482" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="8751:8892" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
-            <marker date="1547299347183" expanded="true" signature="8897:8962" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="9025:9304" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="9096:9300" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="9102:9239" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
-            <marker date="1547299347183" expanded="true" signature="9308:9395" ph="///   &lt;para&gt;Returns the currently focused tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="9438:9461" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="9465:9556" ph="///   &lt;para&gt;Returns the current owner of this tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="9594:9617" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="9621:9715" ph="///   &lt;para&gt;Returns the current occupant of this tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="9756:9782" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="9786:9921" ph="///   &lt;para&gt;Changes the focused tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="9984:10196" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="10009:10083" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="10231:10335" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="10339:10406" ph="///   &lt;para&gt;Disables focus.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="10443:10532" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="10536:10617" ph="///   &lt;para&gt;Draws outlines around realms.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="10648:11970" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="10796:10913" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="10940:11060" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11088:11229" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11258:11399" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11429:11581" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11612:11765" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11809:11922" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11922:11966" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="11999:12164" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="12194:12252" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="12283:12341" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="12373:12432" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="12465:12524" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="12528:12613" ph="///   &lt;para&gt;When this tile gains hover focus.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="12639:12851" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="12855:12940" ph="/*   &lt;para&gt;When this tile loses hover focus.&lt;/para&gt; ... */" />
-            <marker date="1547299347183" expanded="true" signature="12943:13138" ph="/* public void OnMouseExit() { ... */" />
-            <marker date="1547299347183" expanded="true" signature="13142:13220" ph="///   &lt;para&gt;When this tile is clicked.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="13246:13660" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="13353:13656" ph="/* var player = GameManager.instance.GetCurrentPlayer(); ... */" />
-            <marker date="1547299347183" expanded="true" signature="13705:13767" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="13797:13847" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="13878:13929" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="13958:14046" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14074:14122" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14152:14188" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14193:14338" ph="///   &lt;para&gt;Sets the owner of this tile and updates realms.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="14387:14643" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14412:14527" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14527:14620" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14696:14724" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14728:14839" ph="///   &lt;para&gt;Checks tiles for ownership and updates occupation radiuses.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="14876:15453" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="14942:15327" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="15026:15322" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="15065:15107" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="15228:15284" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="15457:15839" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="15946:17431" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="16207:16764" ph="/* var tilePrototype = Instantiate(GameManager.instance.tilePrototype); ... */" />
-            <marker date="1547299347183" expanded="true" signature="16959:17060" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="17014:17055" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="17097:17155" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="17221:17333" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="17435:17735" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="17825:17889" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="17893:18185" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="18281:18362" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="18366:18576" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="18655:18712" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="18716:18953" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="19063:19915" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="19165:19320" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="19320:19586" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="19812:19854" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="19919:20118" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="20211:20281" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="20396:22315" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="20560:22295" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="21117:21279" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="21323:21397" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="21397:21477" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="21516:21622" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="21573:21616" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="22319:22433" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="22480:22797" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="22569:22778" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="22637:22773" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="22728:22767" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="22801:22996" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match a specified tile type.&lt;/para ... " />
-            <marker date="1547299347183" expanded="true" signature="23058:23270" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="23196:23251" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="23274:23474" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match the specified tile types.&lt;/p ... " />
-            <marker date="1547299347183" expanded="true" signature="23550:23693" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="23632:23674" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="23697:23790" ph="///   &lt;para&gt;Returns the last created or changed tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="23832:23861" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="23865:23989" ph="///   &lt;para&gt;Returns the first ever created tile (should be located at Vector3.zero).&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="24033:24057" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="24061:24155" ph="///   &lt;para&gt;Checks if there are any neighboring tiles.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="24184:24225" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="24229:24385" ph="///   &lt;para&gt;Checks if there is a neighboring tile in the specified direction.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="24433:24480" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="24484:24658" ph="///   &lt;para&gt;Gets the local position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="24717:24750" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="24754:24928" ph="///   &lt;para&gt;Gets the world position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="24995:25060" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="25064:25266" ph="///   &lt;para&gt;Gets the neighboring tile controller in the specified direction if it exists. Uses ray casting to det ... " />
-            <marker date="1547299347183" expanded="true" signature="25324:25581" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="25585:25709" ph="///   &lt;para&gt;Gets all neighboring tile controllers. Uses ray casting to detect tiles.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="25755:25966" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="25851:25941" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="25885:25936" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="25970:26168" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="26237:27200" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="26323:26865" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="26399:26472" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="26602:26860" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="26725:26854" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="26759:26847" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="26984:27143" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="27027:27138" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="27083:27132" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="27204:27400" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="27466:27514" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="27518:27661" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="27712:27761" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="27765:27890" ph="///   &lt;para&gt;Changes this tiles model.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="27938:28222" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28226:28337" ph="///   &lt;para&gt;Updates road decals on tile according to neighboring tiles.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="28371:29397" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28420:29393" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28439:29225" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28474:29219" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28564:29037" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28608:28718" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="28755:29029" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29037:29212" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29093:29204" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29225:29388" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29277:29382" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29401:29547" ph="///   &lt;para&gt;Adds or removes a road on this tile.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="29582:30183" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29657:29675" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29746:29874" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="29920:30025" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30140:30179" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30187:30269" ph="///   &lt;para&gt;Checks if this tile is a road.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="30293:30317" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30321:30403" ph="///   &lt;para&gt;Highlights this tile visually.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="30452:30635" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30494:30631" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30674:30703" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30707:30792" ph="///   &lt;para&gt;Un-highlights this tile visually.&lt;/para&gt; ... " />
-            <marker date="1547299347183" expanded="true" signature="30830:30987" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="30872:30983" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="31036:31226" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="31081:31222" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="31129:31217" ph="{...}" />
-            <marker date="1547299347183" expanded="true" signature="31256:31301" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/Entities/Entity.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1556,8 +1330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="229" column="37" selection-start-line="229" selection-start-column="37" selection-end-line="229" selection-end-column="37" />
+        <state relative-caret-position="419">
+          <caret line="231" column="47" selection-start-line="231" selection-start-column="47" selection-end-line="231" selection-end-column="47" />
           <folding>
             <marker date="1547303102064" expanded="false" signature="6:225" ph="..." />
             <marker date="1547303102064" expanded="true" signature="282:11011" ph="{...}" />
@@ -1633,6 +1407,217 @@
             <marker date="1547303102064" expanded="true" signature="10748:10769" ph="{...}" />
             <marker date="1547303102064" expanded="true" signature="10796:10844" ph="{...}" />
             <marker date="1547303102064" expanded="true" signature="10866:11009" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/World/TileController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="233" column="47" selection-start-line="233" selection-start-column="47" selection-end-line="233" selection-end-column="47" />
+          <folding>
+            <marker date="1547303646857" expanded="false" signature="6:289" ph="..." />
+            <marker date="1547303646857" expanded="true" signature="307:31457" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="354:31455" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="1808:1953" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3020:3235" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3291:3415" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3463:3500" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3532:3564" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3605:4173" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3653:4152" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3938:4130" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="3989:4124" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="4040:4117" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="4207:4264" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="4297:4447" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="4324:4360" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="4400:4425" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="4451:4712" ph="///   &lt;para&gt;Starts preview mode for a given tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="4809:5337" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="5173:5333" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="5245:5281" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="5281:5328" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="5376:5657" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="5436:5531" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="5661:5906" ph="/* public static void EndPreviewMode() { ... */" />
+            <marker date="1547303646857" expanded="true" signature="5968:6323" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="6382:7475" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="6471:7389" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="6641:6692" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="6782:7363" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="6894:7158" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7262:7357" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7389:7471" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7518:7559" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7617:8969" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7720:8900" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7795:8495" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7846:8489" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="7967:8262" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="8375:8482" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="8797:8895" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="8840:8889" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="8900:8965" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9028:9455" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9099:9451" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9105:9242" ph="/* if (_blueprint.tile.connectsToRoad) { ... */" />
+            <marker date="1547303646857" expanded="true" signature="9349:9446" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9392:9440" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9459:9546" ph="///   &lt;para&gt;Returns the currently focused tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="9589:9612" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9616:9707" ph="///   &lt;para&gt;Returns the current owner of this tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="9745:9768" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9772:9866" ph="///   &lt;para&gt;Returns the current occupant of this tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="9907:9933" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="9937:10072" ph="///   &lt;para&gt;Changes the focused tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="10135:10347" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="10160:10234" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="10382:10486" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="10490:10557" ph="///   &lt;para&gt;Disables focus.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="10594:10683" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="10687:10768" ph="///   &lt;para&gt;Draws outlines around realms.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="10799:12121" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="10947:11064" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="11091:11211" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="11239:11380" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="11409:11550" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="11580:11732" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="11763:11916" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="11960:12073" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12073:12117" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12150:12315" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12345:12403" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12434:12492" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12524:12583" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12616:12675" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="12679:12764" ph="///   &lt;para&gt;When this tile gains hover focus.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="12790:13002" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="13006:13091" ph="/*   &lt;para&gt;When this tile loses hover focus.&lt;/para&gt; ... */" />
+            <marker date="1547303646857" expanded="true" signature="13094:13289" ph="/* public void OnMouseExit() { ... */" />
+            <marker date="1547303646857" expanded="true" signature="13293:13371" ph="///   &lt;para&gt;When this tile is clicked.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="13397:13811" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="13504:13807" ph="/* var player = GameManager.instance.GetCurrentPlayer(); ... */" />
+            <marker date="1547303646857" expanded="true" signature="13856:13918" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="13948:13998" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14029:14080" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14109:14197" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14225:14273" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14303:14339" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14344:14489" ph="///   &lt;para&gt;Sets the owner of this tile and updates realms.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="14538:14794" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14563:14678" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14678:14771" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14847:14875" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="14879:14990" ph="///   &lt;para&gt;Checks tiles for ownership and updates occupation radiuses.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="15027:15604" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="15093:15478" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="15177:15473" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="15216:15258" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="15379:15435" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="15608:15990" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="16097:17582" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="16358:16915" ph="/* var tilePrototype = Instantiate(GameManager.instance.tilePrototype); ... */" />
+            <marker date="1547303646857" expanded="true" signature="17110:17211" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="17165:17206" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="17248:17306" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="17372:17484" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="17586:17886" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="17976:18040" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="18044:18336" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="18432:18513" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="18517:18727" ph="///   &lt;para&gt;Creates a new tile at the specified world coordinates.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="18806:18863" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="18867:19104" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="19214:20066" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="19316:19471" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="19471:19737" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="19963:20005" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="20070:20269" ph="///   &lt;para&gt;Replaces an existing tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="20362:20432" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="20547:22466" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="20711:22446" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="21268:21430" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="21474:21548" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="21548:21628" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="21667:21773" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="21724:21767" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="22470:22584" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="22631:22948" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="22720:22929" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="22788:22924" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="22879:22918" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="22952:23147" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match a specified tile type.&lt;/para ... " />
+            <marker date="1547303646857" expanded="true" signature="23209:23421" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="23347:23402" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="23425:23625" ph="///   &lt;para&gt;Returns a list of all existing tile controllers in this world that match the specified tile types.&lt;/p ... " />
+            <marker date="1547303646857" expanded="true" signature="23701:23844" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="23783:23825" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="23848:23941" ph="///   &lt;para&gt;Returns the last created or changed tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="23983:24012" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="24016:24140" ph="///   &lt;para&gt;Returns the first ever created tile (should be located at Vector3.zero).&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="24184:24208" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="24212:24306" ph="///   &lt;para&gt;Checks if there are any neighboring tiles.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="24335:24376" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="24380:24536" ph="///   &lt;para&gt;Checks if there is a neighboring tile in the specified direction.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="24584:24631" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="24635:24809" ph="///   &lt;para&gt;Gets the local position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="24868:24901" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="24905:25079" ph="///   &lt;para&gt;Gets the world position of a potential neighboring tile in the specified direction.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="25146:25211" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="25215:25417" ph="///   &lt;para&gt;Gets the neighboring tile controller in the specified direction if it exists. Uses ray casting to det ... " />
+            <marker date="1547303646857" expanded="true" signature="25475:25732" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="25736:25860" ph="///   &lt;para&gt;Gets all neighboring tile controllers. Uses ray casting to detect tiles.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="25906:26117" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26002:26092" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26036:26087" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26121:26319" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="26388:27351" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26474:27016" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26550:26623" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26753:27011" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26876:27005" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="26910:26998" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="27135:27294" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="27178:27289" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="27234:27283" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="27355:27551" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="27617:27665" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="27669:27812" ph="///   &lt;para&gt;Gets all tile controllers in a specified radius.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="27863:27912" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="27916:28041" ph="///   &lt;para&gt;Changes this tiles model.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="28089:28373" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28377:28488" ph="///   &lt;para&gt;Updates road decals on tile according to neighboring tiles.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="28522:29548" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28571:29544" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28590:29376" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28625:29370" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28715:29188" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28759:28869" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="28906:29180" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29188:29363" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29244:29355" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29376:29539" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29428:29533" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29552:29698" ph="///   &lt;para&gt;Adds or removes a road on this tile.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="29733:30334" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29808:29826" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="29897:30025" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30071:30176" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30291:30330" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30338:30420" ph="///   &lt;para&gt;Checks if this tile is a road.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="30444:30468" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30472:30554" ph="///   &lt;para&gt;Highlights this tile visually.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="30603:30786" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30645:30782" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30825:30854" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="30858:30943" ph="///   &lt;para&gt;Un-highlights this tile visually.&lt;/para&gt; ... " />
+            <marker date="1547303646857" expanded="true" signature="30981:31138" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="31023:31134" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="31187:31377" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="31232:31373" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="31280:31368" ph="{...}" />
+            <marker date="1547303646857" expanded="true" signature="31407:31452" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 607, y: 471}
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 3342
+  controlID: 771
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 471}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 3308
+  controlID: 772
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 3155
+  controlID: 773
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,24 +202,24 @@ MonoBehaviour:
     height: 814
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 96}
-    m_SelectedIDs: 38290000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9cfbffff00000000802c00009a2c0000142d0000222d0000b62d0000d82d0000f02d0000002e0000102e0000262e0000a62e0000aa2e0000b62e0000ba2e0000da2e0000282f00003a2f00004e2f0000682f0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 32f2f8ff
+    m_LastClickedID: -462286
+    m_ExpandedIDs: 32f2f8ff9cfbffff000000004e2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Default World(Clone)
+      m_OriginalName: Default World(Clone)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -462286
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_MinSize: {x: 332, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 3309
+  controlID: 872
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -590,9 +590,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 38290000
-    m_LastClickedInstanceID: 10552
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 32f2f8ff
+    m_LastClickedInstanceID: -462286
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003eefc9ff38c9c9ff10280000f42d00001666c3ffe0270000fa2800001e28000006280000f8280000ee2427ff3a290000e62c0000d0290000ba3a0000522800003cefe9ff000000009c280000e48546ff62280000682a0000c62a0000382e00001c2e0000d8300000b62a0000462e00002a2e0000342b0000462b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

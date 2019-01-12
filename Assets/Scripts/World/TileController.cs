@@ -230,11 +230,11 @@ namespace World {
 				UIManager.instance.PlayTileSound(target, UIManager.instance.soundPlop);
 				_previewInstance.transform.position = target.transform.position;
 				target.GetComponent<MeshRenderer>().enabled = false;
-				/*if (_blueprint.tile.connectsToRoad) {
-						foreach (var neighbor in GetNeighbors()) {
-							neighbor.UpdateRoadDecals();
-						}
-					}*/
+				foreach (Transform child in target.transform) {
+					if (!child.name.Contains("Cursor")) {
+						child.gameObject.SetActive(false);
+					}
+				}
 			}
 			else {
 				_previewInstance.gameObject.SetActive(false);
@@ -249,6 +249,11 @@ namespace World {
 					}
 				}*/
 				target.GetComponent<MeshRenderer>().enabled = true;
+				foreach (Transform child in target.transform) {
+					if (!child.name.Contains("Cursor")) {
+						child.gameObject.SetActive(true);
+					}
+				}
 			}
 		}
 
