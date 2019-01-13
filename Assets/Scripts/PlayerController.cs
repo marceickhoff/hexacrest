@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Players;
-using UnityEditor;
 using UnityEngine;
 using World;
 using World.Entities;
@@ -165,7 +164,24 @@ public abstract class PlayerController : MonoBehaviour {
 			inventory.Give(GetEntityType().movementCostStone * CarriedEntitiyCount(), Inventory.Resource.Stone);
 			var tempSrc = _entitySource;
 			_entitySource = null;
+			Entity tempEntity;
+			var tempEntities = new List<Entity>();
+			try {
+				while (tempEntity = _carriedEntities.Pop()) {
+					tempEntities.Add(tempEntity);
+				}
+			}
+			catch (InvalidOperationException e) {
+			}
+
+
+			foreach (var entity in tempEntities) {
+				_carriedEntities.Push(entity);
+			}
 			PlaceEntities(tempSrc);
+			foreach (var entity in tempEntities) {
+				entity.moved = false;
+			}
 		}
 		if (OnEntitiesChanged != null) OnEntitiesChanged(this);
 		//Debug.Log(name+" carries "+_carriedEntities.Count+" entities");
@@ -186,7 +202,7 @@ public abstract class PlayerController : MonoBehaviour {
 			CancelEntityPlacement();
 			return;
 		}
-
+		var player = GameManager.instance.GetCurrentPlayer();
 		if (target.tile.healthPoints <= CarriedEntitiyCount()) {
 			if (target.IsStructure() && target.variantDestroyed != null) {
 				score += target.tile.destructionScore;
@@ -196,18 +212,18 @@ public abstract class PlayerController : MonoBehaviour {
 				enemyPlayer.inventory.AddCapacity(-target.tile.woodStorage, Inventory.Resource.Wood);
 				enemyPlayer.inventory.AddCapacity(-target.tile.ironStorage, Inventory.Resource.Iron);
 				enemyPlayer.inventory.AddCapacity(-target.tile.stoneStorage, Inventory.Resource.Stone);
-				target.SetOwner(null);
 				var facilities = target.oldAssociatedFacilites;
 				if (target.IsFacility()) {
 					target.controlledBy.RemoveFacility(target);
 				}
+				target.SetOwner(null);
+				TileController.UpdateRealms();
 				target = TileController.Replace(target, target.variantDestroyed);
 				target.oldAssociatedFacilites = facilities;
-				target.SetOwner(null);
-				target.SetOccupant(null);
 				target.UpdateOutline();
 
 				TileController.UpdateRealms();
+
 				var defeat = true;
 				foreach (var tile in enemyPlayer.ownedTiles) {
 					if (tile.tile.name.Equals("settlement") || tile.tile.name.Equals("village") || tile.tile.name.Equals("city")) {
@@ -222,7 +238,6 @@ public abstract class PlayerController : MonoBehaviour {
 			while (CarriesEntities()) {
 				try {
 					if (target.HasEnemyEntities()) {
-						var player = GameManager.instance.GetCurrentPlayer();
 						var enemy = target.GetEntityOwner();
 						if (target.GetEntityCount() == _carriedEntities.Count) {
 							if (UnityEngine.Random.value >= .5f) {
@@ -250,6 +265,7 @@ public abstract class PlayerController : MonoBehaviour {
 						var entity = _carriedEntities.Pop();
 						entity.gameObject.SetActive(true);
 						target.AddEntity(entity);
+						entity.moved = true;
 					}
 					else break;
 				}

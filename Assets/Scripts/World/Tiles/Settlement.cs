@@ -70,7 +70,14 @@ namespace World.Tiles {
 
 		public void UpgradeTo(TileController tileController) {
 			var facilites = TileController.GetFocus().GetFacilities();
+
+			var index = TileController.GetFocus().transform.GetSiblingIndex();
+			Debug.Log(index);
+
 			var upgradedTile = TileController.Build(TileController.GetFocus(), tileController, GameManager.instance.GetCurrentPlayer());
+
+			upgradedTile.transform.SetSiblingIndex(index);
+
 			if (upgradedTile) {
 				UIManager.ClosePanel();
 				foreach (var facility in facilites) {

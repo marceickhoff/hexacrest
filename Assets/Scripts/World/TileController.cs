@@ -35,6 +35,9 @@ namespace World {
 		public TileController controlledBy;
 		public List<TileController> oldAssociatedFacilites = new List<TileController>();
 
+		public static List<TileController> realmTiles = new List<TileController>();
+		public List<TileController> influencedBy;
+
 
 		private int _currentHighlightPower = 0;
 
@@ -98,7 +101,6 @@ namespace World {
 		public bool AddEntity(Entity entity) {
 			if (_entities.Count <= maxEntitiesPerTile) {
 				_entities.Push(entity);
-				entity.moved = true;
 				entity.transform.parent = transform;
 				entity.transform.position = transform.position + _entitySlots[GetEntityCount() - 1];
 				var source = GameManager.instance.GetCurrentPlayer().GetEntitySource();
@@ -475,6 +477,28 @@ namespace World {
 		public static void UpdateRealms() {
 			foreach (TileController ownableTile in GetAll(Tile.ownable)) {
 				foreach (var realmTile in ownableTile.GetArea(ownableTile.tile.occupyRadius)) {
+					while (true) {
+						if (realmTile.influencedBy.Count > 0) {
+							if (realmTile.influencedBy.First()._owner == null) {
+								realmTile.influencedBy.Remove(realmTile.influencedBy.First());
+								continue;
+							}
+							if (realmTile.influencedBy.First().Equals(ownableTile)) {
+								realmTile._occupant = realmTile.influencedBy.First()._owner;
+							}
+						}
+						else {
+							realmTile._occupant = null;
+						}
+						break;
+					}
+					realmTile.UpdateOutline();
+				}
+			}
+
+
+			/*foreach (TileController ownableTile in GetAll(Tile.ownable)) {
+				foreach (var realmTile in ownableTile.GetArea(ownableTile.tile.occupyRadius)) {
 					if (ownableTile._owner == null) {
 						realmTile._occupant = null;
 					}
@@ -483,7 +507,7 @@ namespace World {
 					}
 					realmTile.UpdateOutline();
 				}
-			}
+			}*/
 			GameManager.instance.CheckWinningConditions();
 			UIManager.instance.UpdatePlayers(GameManager.instance.GetPlayers());
 		}
@@ -583,7 +607,27 @@ namespace World {
 			foreach (var entity in original._entities) {
 				_lastCreated.AddEntity(entity);
 			}
+
+			_lastCreated.influencedBy = original.influencedBy;
+			if (_lastCreated.tile.occupyRadius > 0) {
+				foreach (var areaTile in _lastCreated.GetArea(_lastCreated.tile.occupyRadius)) {
+					if (areaTile.influencedBy.Contains(original)) {
+						var index = areaTile.influencedBy.IndexOf(original);
+						areaTile.influencedBy.Insert(index, _lastCreated);
+					}
+					else {
+						areaTile.influencedBy.Add(_lastCreated);
+					}
+				}
+			}
+			foreach (var areaTile in _lastCreated.GetArea(original.tile.occupyRadius)) {
+				if (areaTile.influencedBy.Contains(original)) {
+					areaTile.influencedBy.Remove(original);
+				}
+			}
+
 			Destroy(original.gameObject);
+			UpdateRealms();
 			return _lastCreated;
 		}
 
@@ -629,6 +673,9 @@ namespace World {
 				player.inventory.AddCapacity(building.tile.woodStorage - oldCapacityWood, Inventory.Resource.Wood);
 				player.inventory.AddCapacity(building.tile.ironStorage - oldCapacityIron, Inventory.Resource.Iron);
 				player.inventory.AddCapacity(building.tile.stoneStorage - oldCapacityStone, Inventory.Resource.Stone);
+				foreach (var areaTile in building.GetArea(building.tile.occupyRadius)) {
+					areaTile.influencedBy.Add(building);
+				}
 				UpdateRealms();
 				UIManager.instance.UpdatePlayers(GameManager.instance.GetPlayers());
 				GameManager.instance.CheckWinningConditions();

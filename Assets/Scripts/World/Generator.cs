@@ -343,6 +343,9 @@ namespace World {
 					sound.time = Random.Range(0, sound.clip.length);
 				}
 				settlement.SetOwner(players[player]);
+				foreach (var areaTile in settlement.GetArea(settlement.tile.occupyRadius)) {
+					areaTile.influencedBy.Add(settlement);
+				}
 				players[player].inventory.AddCapacity(settlement.tile.foodStorage, Inventory.Resource.Food);
 				players[player].inventory.AddCapacity(settlement.tile.woodStorage, Inventory.Resource.Wood);
 				players[player].inventory.AddCapacity(settlement.tile.ironStorage, Inventory.Resource.Iron);
