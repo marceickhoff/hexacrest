@@ -48,20 +48,16 @@ namespace Players {
 							var field = tileController.GetComponent<Field>();
 							if (CarriesEntities()) {
 								if (GetEntitySource() != null && GetEntitySource().Equals(tileController) && (tileController.HasEntities() || tileController.IsFactory())) {
-									Debug.Log("Grab");
 									GrabEntity(tileController);
 								}
 								else if (GetEntitySource() != null && GetEntitySource().Equals(tileController) && !tileController.HasEntities()) {
-									Debug.Log("Cancel");
 									CancelEntityPlacement();
 								}
 								else {
-									Debug.Log("Place");
 									PlaceEntities(tileController);
 								}
 							}
 							else if (tileController.HasEntities() || tileController.IsFactory()) {
-								Debug.Log("Grab");
 								GrabEntity(tileController);
 							}
 							else {

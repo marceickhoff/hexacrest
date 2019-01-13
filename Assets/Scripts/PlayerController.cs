@@ -116,9 +116,19 @@ public abstract class PlayerController : MonoBehaviour {
 			inventory.Take(entity.buildingCostStone, Inventory.Resource.Stone);
 		}
 		else {
-			if (_entitySource != null && !_entitySource.Equals(source) || _carriedEntities.Count >= TileController.maxEntitiesPerTile || !source.GetEntityOwner().Equals(GameManager.instance.GetCurrentPlayer())) return;
 			_entitySource = source;
-			var entity = source.GetEntityType();
+			if (_entitySource != null && !_entitySource.Equals(source) ||
+			    _carriedEntities.Count >= TileController.maxEntitiesPerTile ||
+			    !source.GetEntityOwner().Equals(GameManager.instance.GetCurrentPlayer())) {
+				return;
+			}
+			Entity entity = null;
+			foreach (var e in source.GetEntities()) {
+				if (!e.moved) {
+					entity = e;
+					break;
+				}
+			}
 			if (entity != null && CanGrabEntity(entity)) {
 				entity = source.RemoveEntity();
 				entity.gameObject.SetActive(false);
@@ -150,6 +160,7 @@ public abstract class PlayerController : MonoBehaviour {
 		if (_entitySource.IsFactory()) {
 			while (CarriesEntities()) {
 				var entity = _carriedEntities.Pop();
+				_ownedEntities.Remove(entity);
 				inventory.Give(entity.buildingCostFood, Inventory.Resource.Food);
 				inventory.Give(entity.buildingCostWood, Inventory.Resource.Wood);
 				inventory.Give(entity.buildingCostIron, Inventory.Resource.Iron);

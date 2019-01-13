@@ -68,7 +68,7 @@ namespace World {
 		private TileController _original; //Saves the default tile variant
 
 
-		private Stack<Entity> _entities = new Stack<Entity>();
+		private List<Entity> _entities = new List<Entity>();
 
 		public delegate void GrabEntity(TileController tileController);
 		public static event GrabEntity OnGrabEntity;
@@ -100,7 +100,7 @@ namespace World {
 
 		public bool AddEntity(Entity entity) {
 			if (_entities.Count <= maxEntitiesPerTile) {
-				_entities.Push(entity);
+				_entities.Add(entity);
 				entity.transform.parent = transform;
 				entity.transform.position = transform.position + _entitySlots[GetEntityCount() - 1];
 				var source = GameManager.instance.GetCurrentPlayer().GetEntitySource();
@@ -118,13 +118,18 @@ namespace World {
 		}
 
 		public Entity GetEntityType() {
-			return HasEntities() ? _entities.Peek () : null;
+			return HasEntities() ? _entities.Last () : null;
+		}
+
+		public List<Entity> GetEntities() {
+			return _entities;
 		}
 
 		public Entity RemoveEntity() {
 			Entity entity;
 			try {
-				entity = _entities.Pop();
+				entity = _entities.Last();
+				_entities.Remove(_entities.Last());
 			}
 			catch (InvalidOperationException e) {
 				entity = null;
@@ -424,7 +429,7 @@ namespace World {
 		}
 
 		public PlayerController GetEntityOwner() {
-			return HasEntities() ? _entities.Peek().owner : null;
+			return HasEntities() ? _entities.Last().owner : null;
 		}
 
 		public bool IsStructure() {
