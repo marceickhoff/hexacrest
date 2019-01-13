@@ -228,8 +228,10 @@ public abstract class PlayerController : MonoBehaviour {
 					target.controlledBy.RemoveFacility(target);
 				}
 				target.SetOwner(null);
+				PlayerController occupant = target.GetOccupant();
 				TileController.UpdateRealms();
 				target = TileController.Replace(target, target.variantDestroyed);
+				target.SetOccupant(occupant);
 				target.oldAssociatedFacilites = facilities;
 				target.UpdateOutline();
 

@@ -58,7 +58,8 @@ namespace World.Tiles {
 				}
 				if ((!TileController.GetFocus().HasEntities() || (TileController.GetFocus().HasEntities() && !candidate.tile.obstructed)) &&
 				    (candidate.controlledBy == null || (candidate.controlledBy != null && candidate.controlledBy.Equals(TileController.GetFocus()))) &&
-				    candidate.GetOccupant().Equals(player) &&
+				    (candidate.GetOccupant() == null || (candidate.GetOccupant() != null && candidate.GetOccupant().Equals(player))) &&
+				    (candidate.GetEntityCount() <= 0 || (candidate.GetEntityCount() > 0 && candidate.GetEntityOwner().Equals(player))) &&
 				    nextToMatch &&
 				    tileController.tile.builingRestrictionsOn.Contains(candidate.tile) &&
 				    !(!tileController.tile.connectsToRoad && candidate.IsRoad())) {
