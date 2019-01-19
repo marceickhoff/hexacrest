@@ -41,7 +41,7 @@ namespace World {
 
 		private int _currentHighlightPower = 0;
 
-		void Start () {
+		public static void Reset() {
 			_lastCreated = null;
 			_origin = null;
 			_all.Clear();
