@@ -156,5 +156,5 @@ MonoBehaviour:
   cursor: {fileID: 114623458478421310, guid: 0c2257d15e0adc54e8d239c84471d8b8, type: 2}
   highlightHoverColor: {r: 1, g: 1, b: 1, a: 0.11764706}
   highlightClickColor: {r: 1, g: 1, b: 1, a: 1}
-  highlightNeutralColor: {r: 0.15618658, g: 0.64705884, b: 0, a: 0.3137255}
-  highlightNegativeColor: {r: 0.64705884, g: 0, b: 0, a: 0.15686275}
+  highlightNeutralColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+  highlightNegativeColor: {r: 0.23529412, g: 0.23529412, b: 0.27450982, a: 0.15686275}
