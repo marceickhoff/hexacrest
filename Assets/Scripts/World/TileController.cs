@@ -41,6 +41,13 @@ namespace World {
 
 		private int _currentHighlightPower = 0;
 
+		void Start () {
+			_lastCreated = null;
+			_origin = null;
+			_all.Clear();
+			realmTiles.Clear();
+		}
+
 		private static readonly List<Vector3> _entitySlots = new List<Vector3> {
 			new Vector3(-.1f, .344f, -.1f), 
 			new Vector3(-.1f, .344f,  .1f),

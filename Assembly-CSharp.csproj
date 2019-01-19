@@ -61,6 +61,7 @@
     <Compile Include="Assets\Radial Menu Framework\Scripts\RMF_RadialMenu.cs" />
     <Compile Include="Assets\Radial Menu Framework\Scripts\RMF_RadialMenuElement.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\DemoLevelLoader.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\Loader.cs" />

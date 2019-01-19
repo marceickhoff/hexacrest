@@ -23,10 +23,10 @@ public class UIManager : MonoBehaviour {
 	public Text woodLimit;
 	public Text ironLimit;
 	public Text stoneLimit;
-	public GameObject EntityIndicator;
-	public GameObject EntityIndicatorNumber;
-	public Text EntityIndicatorNumberText;
-	public GameObject EntityIcon;
+	public GameObject entityIndicator;
+	public GameObject entityIndicatorNumber;
+	public Text entityIndicatorNumberText;
+	public GameObject entityIcon;
 
 	[Header("Audio")]
 	public AudioSource audioSource;
@@ -169,6 +169,7 @@ public class UIManager : MonoBehaviour {
 
 
 	void Start () {
+		Destroy(instance);
 		if (instance == null) {
 			instance = this;
 		}
@@ -198,28 +199,29 @@ public class UIManager : MonoBehaviour {
 	}
 
 	void Update() {
-		EntityIndicator.transform.position = Input.mousePosition;
+		entityIndicator.transform.position = Input.mousePosition;
 	}
 
 	public void UpdateEntityIndicator(PlayerController player) {
 		if (player.CarriesEntities()) {
-			foreach (var material in EntityIcon.GetComponent<Renderer>().materials) {
+			foreach (var material in entityIcon.GetComponent<Renderer>().materials) {
 				if (material.name.StartsWith("Player")) {
 					material.color = player.color;
 					break;
 				}
 			}
 			if (player.CarriedEntitiyCount() > 1) {
-				EntityIndicatorNumberText.text = player.CarriedEntitiyCount().ToString();
-				EntityIndicatorNumber.gameObject.SetActive(true);
+				entityIndicatorNumberText.text = player.CarriedEntitiyCount().ToString();
+				entityIndicatorNumber.gameObject.SetActive(true);
 			}
 			else {
-				EntityIndicatorNumber.gameObject.SetActive(false);
+				entityIndicatorNumber.gameObject.SetActive(false);
 			}
-			EntityIndicator.gameObject.SetActive(true);
+			entityIndicator.gameObject.SetActive(true);
 		}
 		else {
-			EntityIndicator.gameObject.SetActive(false);
+			if (entityIndicator == null) return;
+			entityIndicator.gameObject.SetActive(false);
 		}
 	}
 

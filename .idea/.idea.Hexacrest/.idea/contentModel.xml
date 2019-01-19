@@ -32,6 +32,7 @@
       </e>
       <e p="Assets\Scripts" t="Include">
         <e p="CameraController.cs" t="Include" />
+        <e p="DemoLevelLoader.cs" t="Include" />
         <e p="GameManager.cs" t="Include" />
         <e p="Inventory.cs" t="Include" />
         <e p="Loader.cs" t="Include" />
