@@ -35,6 +35,7 @@
         <e p="GameManager.cs" t="Include" />
         <e p="Inventory.cs" t="Include" />
         <e p="Loader.cs" t="Include" />
+        <e p="MainMenuManager.cs" t="Include" />
         <e p="ManualTooltip.cs" t="Include" />
         <e p="Music.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
