@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 355462871}
   - component: {fileID: 355462870}
   m_Layer: 5
-  m_Name: Demo
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1540224750}
-        m_MethodName: Demo
+        m_MethodName: Settings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1429,7 +1429,7 @@ VideoPlayer:
   m_RenderMode: 0
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 2
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 461745485}
@@ -1752,10 +1752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b09e01ed20a84b67a4060fc27d65e605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 286618141}
   backdrop: {fileID: 1247250792}
-  demoVideo: {fileID: 721505075}
-  backgroundMusic: {fileID: 1540224751}
 --- !u!82 &1540224751
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2483,7 +2480,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Demo Video (16 Minutes)
+  m_Text: Settings
 --- !u!222 &1952584342
 CanvasRenderer:
   m_ObjectHideFlags: 0

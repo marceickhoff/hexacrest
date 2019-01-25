@@ -205,8 +205,8 @@ public class UIManager : MonoBehaviour {
 
 	void Update() {
 		EntityIndicator.transform.position = Input.mousePosition;
-		if (Input.GetKey(KeyCode.Escape)) {
-			if (menu.activeSelf) ShowMenu();
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+			if (!menu.activeSelf) ShowMenu();
 			else HideMenu();
 		}
 	}

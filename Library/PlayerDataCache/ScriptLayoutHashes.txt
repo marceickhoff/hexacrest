@@ -1,8 +1,9 @@
 WindowsStandalone
 PlayerPath?
-B:/Unity/Hexacrest/Build/Demo.exe
+B:/Unity/Hexacrest/Build/Hexacrest.exe
 SceneListBegin?
-Assets/demo.unity
+Assets/Scenes/menu.unity
+Assets/Scenes/world.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -161,7 +162,7 @@ bfb9cd6261db19fa5f33497809d56c59 Assembly-CSharp.dll:PostFX.TiltShift
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
-10b0f44e9140078036e353a580262cba Assembly-CSharp.dll:.UIManager
+e37931bdc55816cedb780b23c8b7a138 Assembly-CSharp.dll:.UIManager
 83e56f00e0d1ca4962d9b27779bae183 Assembly-CSharp.dll:QuickOutline.Outline
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -171,6 +172,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 eccb37b25332be3eb0101e2c911d15da Assembly-CSharp.dll:.Tooltip
 7195145696164d230926f43129ad46b7 Assembly-CSharp.dll:World.Tiles.Factory
+33a3b02bdc1d26ecfad785a9451977dd Assembly-CSharp.dll:.MainMenuManager
 2a9a361664074fd3b43ab6ea184d2fb2 Assembly-CSharp.dll:World.Tiles.Generic
 ade2395846578e5d40fc878a30bf2695 Assembly-CSharp.dll:.RMF_RadialMenu
 7a27affa59cb63cd524b8813c97a4e70 Assembly-CSharp.dll:.WorldController
