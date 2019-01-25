@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Players;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using World;
 using Image = UnityEngine.UI.Image;
@@ -40,6 +41,9 @@ public class UIManager : MonoBehaviour {
 
 	[Header("Splash Screen")]
 	public GameObject splashScreen;
+
+	[Header("Menu")]
+	public GameObject menu;
 
 	[Header("Blueprints")]
 	public GameObject playerItem;
@@ -169,6 +173,8 @@ public class UIManager : MonoBehaviour {
 
 
 	void Start () {
+		instance = null;
+		_currentPanel = null;
 		if (instance == null) {
 			instance = this;
 		}
@@ -191,14 +197,34 @@ public class UIManager : MonoBehaviour {
 	{
 		GameManager.OnPlayersChanged -= UpdatePlayers;
 		GameManager.OnRoundStart -= UpdateRoundDisplay;
-		GameManager.OnTurnStart += UpdateInventory;
-		GameManager.OnTurnStart += UpdateEntityIndicator;
+		GameManager.OnTurnStart -= UpdateInventory;
+		GameManager.OnTurnStart -= UpdateEntityIndicator;
 		Inventory.OnInventoryChanged -= UpdateInventory;
 		PlayerController.OnEntitiesChanged -= UpdateEntityIndicator;
 	}
 
 	void Update() {
 		EntityIndicator.transform.position = Input.mousePosition;
+		if (Input.GetKey(KeyCode.Escape)) {
+			if (menu.activeSelf) ShowMenu();
+			else HideMenu();
+		}
+	}
+
+	public void NewGame() {
+		SceneManager.LoadScene("world");
+	}
+
+	public void Quit() {
+		SceneManager.LoadScene("menu");
+	}
+
+	public void ShowMenu() {
+		menu.SetActive(true);
+	}
+
+	public void HideMenu() {
+		menu.SetActive(false);
 	}
 
 	public void UpdateEntityIndicator(PlayerController player) {
@@ -218,7 +244,7 @@ public class UIManager : MonoBehaviour {
 			}
 			EntityIndicator.gameObject.SetActive(true);
 		}
-		else {
+		else if (EntityIndicator != null) {
 			EntityIndicator.gameObject.SetActive(false);
 		}
 	}

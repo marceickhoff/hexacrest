@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Start () {
+		instance = null;
+
 		if (instance == null) {
 			instance = this;
 		}

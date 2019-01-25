@@ -41,6 +41,19 @@ namespace World {
 
 		private int _currentHighlightPower = 0;
 
+		void Start() {
+			_lastCreated = null;
+			_origin = null;
+			_all = new Hashtable();
+
+			_previewOrigin = null;
+			_preview = null;
+			_previewInstance = null;
+			_previewArea = null;
+
+			realmTiles = new List<TileController>();
+		}
+
 		private static readonly List<Vector3> _entitySlots = new List<Vector3> {
 			new Vector3(-.1f, .344f, -.1f), 
 			new Vector3(-.1f, .344f,  .1f),
