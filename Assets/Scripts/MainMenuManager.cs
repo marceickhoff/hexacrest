@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Video;
+using World;
 
 public class MainMenuManager : MonoBehaviour {
 	public GameObject backdrop;
 
 	public void Play() {
+		TileController.Reset();
 		SceneManager.LoadScene("world");
 	}
 

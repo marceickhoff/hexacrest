@@ -212,10 +212,12 @@ public class UIManager : MonoBehaviour {
 	}
 
 	public void NewGame() {
+		TileController.Reset();
 		SceneManager.LoadScene("world");
 	}
 
 	public void Quit() {
+		TileController.Reset();
 		SceneManager.LoadScene("menu");
 	}
 
